@@ -105,6 +105,12 @@ public class FlowScriptCompiler
     public ProcedureHookMode ProcedureHookMode { get; set; }
 
     /// <summary>
+    /// If true when there are procedure name conflicts an existing message of the same name will be overwritten. 
+    /// Otherwise an error will occur and the existing message will not be changed
+    /// </summary>
+    public bool OverwriteExistingProcedures { get; set; } = false;
+
+    /// <summary>
     /// If true when there are message name conflicts an existing message of the same name will be overwritten. 
     /// Otherwise an error will occur and the existing message will not be changed
     /// </summary>
@@ -410,6 +416,24 @@ public class FlowScriptCompiler
         }
     }
 
+    private void OverwriteDuplicateProcedures(CompilationUnit compilationUnit)
+    {
+        for (int i = 0; i < compilationUnit.Declarations.Count; i++)
+        {
+            var declaration = compilationUnit.Declarations[i];
+            if (declaration.DeclarationType != DeclarationType.Procedure) continue;
+
+            var last = compilationUnit.Declarations.FindLastIndex(dec => dec.Identifier.Text == declaration.Identifier.Text);
+            compilationUnit.Declarations[i] = compilationUnit.Declarations[last];
+            while (last != i)
+            {
+                Trace($"Removing duplicate procedure: {declaration.Identifier.Text} at {last}");
+                compilationUnit.Declarations.RemoveAt(last);
+                last = compilationUnit.Declarations.FindLastIndex(dec => dec.Identifier.Text == declaration.Identifier.Text);
+            }
+        }
+    }
+
     private bool TryCompileCompilationUnit(CompilationUnit compilationUnit)
     {
         Info($"Start compiling FlowScript compilation unit with version {mFormatVersion}");
@@ -430,6 +454,7 @@ public class FlowScriptCompiler
             } while (mReresolveImports);
         }
 
+        if (OverwriteExistingProcedures) { OverwriteDuplicateProcedures(compilationUnit); }
         ReorderProcedures(compilationUnit);
 
         // Evaluate declarations, return values, parameters etc
@@ -937,7 +962,7 @@ public class FlowScriptCompiler
 
         if (!mImportedFileHashSet.Contains(messageScriptSourceHash))
         {
-            if (!messageScriptCompiler.TryCompile(messageScriptSource, out messageScript))
+            if (!messageScriptCompiler.TryCompile(messageScriptSource, out messageScript, true))
             {
                 Error(import, $"Import MessageScript failed to compile: {import.CompilationUnitFileName}");
                 return false;
@@ -1084,6 +1109,8 @@ public class FlowScriptCompiler
         if (mScript.MessageScript != null)
         {
             Info("Inserting MessageScript window identifier constants");
+
+            // overwrite messages with same label
             for (int i = 0; i < mScript.MessageScript.Dialogs.Count; i++)
             {
                 var dialog = mScript.MessageScript.Dialogs[i];
@@ -1100,18 +1127,56 @@ public class FlowScriptCompiler
                         last = mScript.MessageScript.Dialogs.FindLastIndex(msg => msg.Name == dialog.Name);
                     }
                 }
+            }
 
+            var dummyText = new List<TokenText>()
+            {
+                new TokenTextBuilder()
+                .AddNewLine()
+                .Build()
+            };
+
+            // reorder messages that have forced indices
+            // i would've liked to do all this message stuff in fewer loops but this has to be done *after* overwriting is done to ensure message overwrites respect priority
+            for (int i = 0; i < mScript.MessageScript.Dialogs.Count; i++)
+            {
+                var dialog = mScript.MessageScript.Dialogs[i];
+                var nameParts = dialog.Name.Split('_');
+
+                if (nameParts.Length < 2) continue;
+                if (!nameParts[nameParts.Length - 2].Equals("index", StringComparison.OrdinalIgnoreCase)) continue;
+                if (!uint.TryParse(nameParts[nameParts.Length - 1], out var index))
+                {
+                    Error($"Unable to parse message index {nameParts[nameParts.Length - 1]}. Index will not be changed");
+                    continue;
+                }
+
+                if (i == index) continue;
+                while (mScript.MessageScript.Dialogs.Count < index + 1)
+                {
+                    mScript.MessageScript.Dialogs.Add(new MessageDialog($"DummyMessage_{mScript.MessageScript.Dialogs.Count}", dummyText));
+                }
+
+                mScript.MessageScript.Dialogs[i] = mScript.MessageScript.Dialogs[(int)index];
+                mScript.MessageScript.Dialogs[(int)index] = dialog;
+            }
+
+            // THEN declare message label constants
+            // reordering has to be finished to prevent duplicate compiler constant declarations if a message gets moved to an earlier index so yeah, 3n :pensive:
+            for (int i = 0; i < mScript.MessageScript.Dialogs.Count; i++)
+            {
+                string dialogName = mScript.MessageScript.Dialogs[i].Name;
                 var declaration = new VariableDeclaration
                 (
                     new VariableModifier(VariableModifierKind.Constant),
                     new TypeIdentifier(ValueKind.Int),
-                    new Identifier(ValueKind.Int, dialog.Name),
+                    new Identifier(ValueKind.Int, dialogName),
                     new UIntLiteral((uint)i)
                 );
 
                 if (!Scope.TryDeclareVariable(declaration))
                 {
-                    Error(declaration, $"Compiler generated constant for MessageScript dialog {dialog.Name} conflicts with another variable");
+                    Error(declaration, $"Compiler generated constant for MessageScript dialog {dialogName} conflicts with another variable");
                 }
                 else
                 {
