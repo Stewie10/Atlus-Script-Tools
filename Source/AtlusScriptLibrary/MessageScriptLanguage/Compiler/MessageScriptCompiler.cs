@@ -357,7 +357,7 @@ public class MessageScriptCompiler
 
         foreach (var dialogContext in dialogContexts)
         {
-            IDialog dialog;
+            Dialog dialog;
 
             if (TryGet(dialogContext, () => dialogContext.messageDialog(), out var messageDialogContext))
             {
@@ -449,7 +449,7 @@ public class MessageScriptCompiler
         //
         // Parse speaker name
         //
-        ISpeaker speaker = null;
+        Speaker speaker = null;
         if (TryGet(context, context.speakerName, out var speakerNameContentContext))
         {
             if (!TryGetFatal(speakerNameContentContext, () => speakerNameContentContext.tokenText(), "Expected dialog window speaker name text", out var speakerNameTagTextContext))
@@ -609,7 +609,7 @@ public class MessageScriptCompiler
         {
             foreach (var node in context.children)
             {
-                IToken lineToken;
+                Token lineToken;
 
                 if (TryCast<MessageScriptParser.TokenContext>(node, out var tagContext))
                 {
@@ -745,7 +745,7 @@ public class MessageScriptCompiler
     {
         LogContextInfo(context);
 
-        functionToken = new FunctionToken();
+        functionToken = null;
         var functionWasFound = false;
 
         foreach (var library in Library.MessageScriptLibraries)
@@ -775,7 +775,7 @@ public class MessageScriptCompiler
     {
         LogContextInfo(context);
 
-        functionToken = new FunctionToken();
+        functionToken = null;
 
         if (!TryGetFatal(context, context.expression, "Expected arguments", out var argumentNodes))
             return false;
@@ -811,7 +811,7 @@ public class MessageScriptCompiler
     {
         LogContextInfo(context);
 
-        codePointToken = new CodePointToken();
+        codePointToken = null;
 
         if (!TryGetFatal(context, context.expression, "Expected code point", out var argumentNodes))
             return false;
