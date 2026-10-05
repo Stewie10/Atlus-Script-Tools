@@ -3,7 +3,7 @@
     "Index": "0x4000",
     "ReturnType": "void",
     "Name": "CALL_EVENT",
-    "Description": "Address: 0x08991DA4",
+    "Description": "Address: 0x08991DA4. PC address: 0x14017E3B0",
     "Parameters": [
       {
         "Type": "int",
@@ -24,7 +24,7 @@
     "Index": "0x4001",
     "ReturnType": "void",
     "Name": "CALL_FIELD",
-    "Description": "Address: 0x08994EF0",
+    "Description": "Address: 0x08994EF0. PC address: 0x14D677430",
     "Parameters": [
       {
         "Type": "int",
@@ -55,7 +55,7 @@
     "Index": "0x4002",
     "ReturnType": "void",
     "Name": "NEXT_TIME",
-    "Description": "Progresses time of day; Address: 0x08995024",
+    "Description": "Progresses time of day; Address: 0x08995024. PC address: 0x14D6762F0",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0002"
@@ -64,8 +64,8 @@
   {
     "Index": "0x4003",
     "ReturnType": "void",
-    "Name": "FLD_SEL_EX",
-    "Description": "Opens map of the city; Address: 0x089660EC",
+    "Name": "CALL_MAP",
+    "Description": "Opens map of the city; Address: 0x089660EC. PC address: 0x150C4FA50",
     "Parameters": [
       {
         "Type": "int",
@@ -74,45 +74,52 @@
       }
     ],
     "Aliases": [
+	  "FLD_SEL_EX",
       "FCL_FUNCTION_0003"
     ]
   },
   {
     "Index": "0x4004",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0004",
-    "Description": "Address: 0x088C14B0",
+    "Name": "CALL_FLOOR",
+    "Description": "Address: 0x088C14B0. PC address: 0x14F1F80B0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": "Unknown type; assumed int"
+        "Name": "floorID",
+        "Description": ""
       }
+    ],
+    "Aliases": [
+      "FCL_FUNCTION_0004"
     ]
   },
   {
     "Index": "0x4005",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0005",
-    "Description": "Address: 0x088C1568",
+    "Name": "CALL_FIELD_POSITION",
+    "Description": "FES leftover. Brings the player to a specfic entry position when escaping dungeons. Was only used in The Answer for the Doors. Address: 0x088C1568. PC address: 0x14F1F9760",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
-        "Description": "Unknown type; assumed int"
+        "Description": "Always 1"
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": "Unknown type; assumed int"
+        "Name": "entryID",
+        "Description": ""
       }
+    ],
+    "Aliases": [
+      "FCL_FUNCTION_0005"
     ]
   },
   {
     "Index": "0x4006",
     "ReturnType": "void",
     "Name": "CALL_TITLE",
-    "Description": "Calls title screen; Address: 0x089733BC",
+    "Description": "Calls title screen; Address: 0x089733BC. PC address: 0x153EAE800",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0006"
@@ -122,7 +129,7 @@
     "Index": "0x4007",
     "ReturnType": "void",
     "Name": "CALL_NAME_ENTRY",
-    "Description": "Calls Protagonist name entry screen; Address: 0x089733FC",
+    "Description": "Calls Protagonist name entry screen; Address: 0x089733FC. PC address: 0x1402C2590",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0007"
@@ -132,7 +139,7 @@
     "Index": "0x4008",
     "ReturnType": "void",
     "Name": "SAVE_MENU",
-    "Description": "Calls Save Data screen; Address: 0x08973740",
+    "Description": "Calls Save Data screen; Address: 0x08973740. PC address: 0x1402C2600",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0008"
@@ -142,7 +149,7 @@
     "Index": "0x4009",
     "ReturnType": "void",
     "Name": "LOAD_MENU",
-    "Description": "Calls Load Data screen; Address: 0x089737A8",
+    "Description": "Calls Load Data screen; Address: 0x089737A8. PC address: 0x1402C2540",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0009"
@@ -151,15 +158,18 @@
   {
     "Index": "0x400a",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_000A",
-    "Description": "Address: 0x08973810",
+    "Name": "SAVE_MENU2",
+    "Description": "Unused duplicate save menu function. Address: 0x08973810. PC address: 0x1402C2650",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_000A"
+    ]
   },
   {
     "Index": "0x400b",
     "ReturnType": "void",
     "Name": "SAVE_NG_MENU",
-    "Description": "Calls Save New Cycle Data screen; Address: 0x08A63E5C",
+    "Description": "Calls Save New Cycle Data screen; Address: 0x08A63E5C. PC address: 0x140273120",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_000B"
@@ -168,15 +178,18 @@
   {
     "Index": "0x400c",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_000C",
-    "Description": "Address: 0x08A63E84",
+    "Name": "SOFT_RESET",
+    "Description": "Address: 0x08A63E84. PC address: 0x140273430",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_000C"
+    ]
   },
   {
     "Index": "0x400d",
     "ReturnType": "void",
     "Name": "CALL_STAFF_ROLL",
-    "Description": "Address: 0x0896F390",
+    "Description": "Address: 0x0896F390. PC address: 0x1402D7EE0",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_000D"
@@ -186,7 +199,7 @@
     "Index": "0x400e",
     "ReturnType": "void",
     "Name": "CALL_WEAPON_SHOP",
-    "Description": "Address: 0x0887262C",
+    "Description": "Address: 0x0887262C. PC address: 0x1401B84A0",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_000E"
@@ -196,7 +209,7 @@
     "Index": "0x400f",
     "ReturnType": "void",
     "Name": "CALL_ITEM_SHOP",
-    "Description": "Address: 0x08872674",
+    "Description": "Address: 0x08872674. PC address: 0x1401B8460",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_000F"
@@ -206,7 +219,7 @@
     "Index": "0x4010",
     "ReturnType": "void",
     "Name": "CALL_COMBINE_SHOP",
-    "Description": "Address: 0x08872704",
+    "Description": "Address: 0x08872704. PC address: 0x1401B83E0",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0010"
@@ -216,11 +229,11 @@
     "Index": "0x4011",
     "ReturnType": "void",
     "Name": "CALL_BATTLE",
-    "Description": "Address: 0x089B9DDC",
+    "Description": "Address: 0x089B9DDC. PC address: 0x145E7FA20",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "encounterID",
         "Description": ""
       }
     ],
@@ -232,7 +245,7 @@
     "Index": "0x4012",
     "ReturnType": "void",
     "Name": "WAIT_BATTLE",
-    "Description": "Address: 0x089BA858",
+    "Description": "Address: 0x089BA858. PC address: 0x140080F00",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0012"
@@ -242,7 +255,7 @@
     "Index": "0x4013",
     "ReturnType": "void",
     "Name": "CALL_TRADE_SHOP",
-    "Description": "Address: 0x088726BC",
+    "Description": "Address: 0x088726BC. PC address: 0x1401B83A0",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0013"
@@ -251,43 +264,49 @@
   {
     "Index": "0x4014",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0014",
-    "Description": "Address: 0x0887274C",
+    "Name": "CALL_ELEVATOR_GIRL",
+    "Description": "Address: 0x0887274C. PC address: 0x1401B8420",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_0014"
+    ]
   },
   {
     "Index": "0x4015",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0015",
-    "Description": "Address: 0x088C1218",
+    "Name": "CALL_2D_FIELD",
+    "Description": "Address: 0x088C1218. PC address: 0x140222AC0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": "Unknown type; assumed int"
+        "Name": "MajorID",
+        "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": "Unknown type; assumed int"
+        "Name": "MinorID",
+        "Description": ""
       },
       {
         "Type": "int",
         "Name": "param3",
-        "Description": "Unknown type; assumed int"
+        "Description": ""
       },
       {
         "Type": "int",
         "Name": "param4",
-        "Description": "Unknown type; assumed int"
+        "Description": ""
       }
+    ],
+    "Aliases": [
+      "FCL_FUNCTION_0015"
     ]
   },
   {
     "Index": "0x4016",
     "ReturnType": "void",
     "Name": "CALL_DARK_HOUR",
-    "Description": "Address: 0x08973D98",
+    "Description": "Address: 0x08973D98. PC address: 0x153E343F0",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_0016"
@@ -296,29 +315,38 @@
   {
     "Index": "0x4017",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0017",
-    "Description": "Address: 0x08973DB8",
+    "Name": "CALL_DARK_HOUR2",
+    "Description": "Another Dark Hour call that gets used. Address: 0x08973DB8. PC address: 0x1402C23E0",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_0017"
+    ]
   },
   {
     "Index": "0x4018",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0018",
-    "Description": "Address: 0x08973DD8",
+    "Name": "END_DARK_HOUR",
+    "Description": "Address: 0x08973DD8. PC address: 0x153D76F00",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_0018"
+    ]
   },
   {
     "Index": "0x4019",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_0019",
-    "Description": "Address: 0x08973E54",
+    "Name": "LOAD_SETUP",
+    "Description": "Address: 0x08973E54. PC address: 0x1402C2C00",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_0019"
+    ]
   },
   {
     "Index": "0x401a",
     "ReturnType": "void",
     "Name": "CALL_SEX_SELECT",
-    "Description": "Address: 0x08878C80",
+    "Description": "Address: 0x08878C80. PC address: 0x1402ACD90",
     "Parameters": [],
     "Aliases": [
       "FCL_FUNCTION_001A"
@@ -328,14 +356,14 @@
     "Index": "0x401b",
     "ReturnType": "int",
     "Name": "FCL_FUNCTION_001B",
-    "Description": "Address: 0x08973E20",
+    "Description": "Address: 0x08973E20. PC address: 0x153D72450",
     "Parameters": []
   },
   {
     "Index": "0x401c",
     "ReturnType": "void",
     "Name": "FCL_FUNCTION_001C",
-    "Description": "Address: 0x08991EB4",
+    "Description": "Address: 0x08991EB4. PC address: 0x14017E4B0",
     "Parameters": [
       {
         "Type": "int",
@@ -352,21 +380,27 @@
   {
     "Index": "0x401d",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_001D",
-    "Description": "Address: 0x089B9E0C",
+    "Name": "SILVER_DOOR_BOSS_INFO",
+    "Description": "Address: 0x089B9E0C. PC address: 0x140080E90",
     "Parameters": [
       {
-        "Type": "int",
-        "Name": "param1",
+        "Type": "SilverDoorEncount",
+        "Name": "encounterID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FCL_FUNCTION_001D"
     ]
   },
   {
     "Index": "0x401e",
     "ReturnType": "void",
-    "Name": "FCL_FUNCTION_001E",
-    "Description": "Address: 0x089BA79C",
+    "Name": "SET_SILVER_DOOR_BOSS",
+    "Description": "Address: 0x089BA79C. PC address: 0x140080F80",
     "Parameters": []
+	"Aliases": [
+      "FCL_FUNCTION_001E"
+    ]
   }
 ]

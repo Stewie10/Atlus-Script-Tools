@@ -3,7 +3,7 @@
     "Index": "0x0000",
     "ReturnType": "void",
     "Name": "MSG",
-    "Description": "Address: 0x08986BF0",
+    "Description": "Address: 0x08986BF0. PC address: 0x14023E440",
     "Parameters": [
       {
         "Type": "int",
@@ -20,7 +20,7 @@
     "Index": "0x0001",
     "ReturnType": "void",
     "Name": "MSG_WND_DSP",
-    "Description": "Address: 0x08985078",
+    "Description": "Address: 0x08985078. PC address: 0x1503B6260",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0001"
@@ -30,7 +30,7 @@
     "Index": "0x0002",
     "ReturnType": "void",
     "Name": "MSG_WND_CLS",
-    "Description": "Address: 0x08985470",
+    "Description": "Address: 0x08985470. PC address: 0x1502883B0",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0002"
@@ -40,7 +40,7 @@
     "Index": "0x0003",
     "ReturnType": "int",
     "Name": "SEL",
-    "Description": "Address: 0x08984D1C",
+    "Description": "Address: 0x08984D1C. PC address: 0x14023F460",
     "Parameters": [
       {
         "Type": "int",
@@ -77,7 +77,7 @@
     "Index": "0x0006",
     "ReturnType": "void",
     "Name": "SEL_MASK",
-    "Description": "Sets bit mask for SEL",
+    "Description": "Sets bit mask for SEL. PC address: 0x14023E3D0",
     "Parameters": [
       {
         "Type": "int",
@@ -93,7 +93,7 @@
     "Index": "0x0007",
     "ReturnType": "bool",
     "Name": "BIT_CHK",
-    "Description": "Address: 0x08978C64",
+    "Description": "Address: 0x08978C64. PC address: 0x153073AE0",
     "Parameters": [
       {
         "Type": "int",
@@ -110,7 +110,7 @@
     "Index": "0x0008",
     "ReturnType": "void",
     "Name": "BIT_ON",
-    "Description": "Address: 0x08978C94",
+    "Description": "Address: 0x08978C94. PC address: 0x15307D1F0",
     "Parameters": [
       {
         "Type": "int",
@@ -127,7 +127,7 @@
     "Index": "0x0009",
     "ReturnType": "void",
     "Name": "BIT_OFF",
-    "Description": "Address: 0x08978CE8",
+    "Description": "Address: 0x08978CE8. PC address: 0x15307A8D0",
     "Parameters": [
       {
         "Type": "int",
@@ -144,7 +144,7 @@
     "Index": "0x000a",
     "ReturnType": "int",
     "Name": "RND",
-    "Description": "Address: 0x08978D3C",
+    "Description": "Address: 0x08978D3C. PC address: 0x1402A57F0",
     "Parameters": [
       {
         "Type": "int",
@@ -160,14 +160,14 @@
     "Index": "0x000b",
     "ReturnType": "void",
     "Name": "FUNCTION_000B",
-    "Description": "Address: 0x08978E2C",
+    "Description": "Address: 0x08978E2C. PC address: 0x1402A5B80",
     "Parameters": []
   },
   {
     "Index": "0x000c",
     "ReturnType": "void",
     "Name": "WAIT",
-    "Description": "Address: 0x08978E4C",
+    "Description": "Address: 0x08978E4C. PC address: 0x1402A5BB0",
     "Parameters": [
       {
         "Type": "int",
@@ -183,7 +183,7 @@
     "Index": "0x000d",
     "ReturnType": "void",
     "Name": "FADEIN",
-    "Description": "Play last used FADEOUT (preserving colours if it was FADE_COLOR) animation, but reversed to fade in screen",
+    "Description": "Play last used FADEOUT (preserving colours if it was FADE_COLOR) animation, but reversed to fade in screen. PC address: 0x1402A5340",
     "Parameters": [
       {
         "Type": "int",
@@ -199,7 +199,7 @@
     "Index": "0x000e",
     "ReturnType": "void",
     "Name": "FADEOUT",
-    "Description": "Play an animation which fades out the screen, typically used for scene transitions",
+    "Description": "Play an animation which fades out the screen, typically used for scene transitions. PC address: 0x1530BE750",
     "Parameters": [
       {
         "Type": "int",
@@ -221,7 +221,7 @@
     "Index": "0x000f",
     "ReturnType": "int",
     "Name": "FADE_SYNC",
-    "Description": "Waits until any playing fade animation finishes",
+    "Description": "Waits until any playing fade animation finishes. PC address: 0x1531274E0",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_000F"
@@ -231,7 +231,7 @@
     "Index": "0x0010",
     "ReturnType": "void",
     "Name": "FADE_COLOR",
-    "Description": "Play an animation which fades out the screen, using a specific color for the effect",
+    "Description": "Play an animation which fades out the screen, using a specific color for the effect. PC address: 0x1530F7E50",
     "Parameters": [
       {
         "Type": "int",
@@ -267,7 +267,7 @@
     "Index": "0x0011",
     "ReturnType": "void",
     "Name": "FUNCTION_0011",
-    "Description": "Address: 0x08978F74",
+    "Description": "Address: 0x08978F74. PC address: 0x1402A5A30",
     "Parameters": [
       {
         "Type": "int",
@@ -315,7 +315,7 @@
     "Index": "0x0012",
     "ReturnType": "void",
     "Name": "FUNCTION_0012",
-    "Description": "Address: 0x08978F18",
+    "Description": "Address: 0x08978F18. PC address: 0x1402A5750",
     "Parameters": [
       {
         "Type": "int",
@@ -328,7 +328,7 @@
     "Index": "0x0013",
     "ReturnType": "void",
     "Name": "FUNCTION_0013",
-    "Description": "Address: 0x08978EB8",
+    "Description": "Address: 0x08978EB8. PC address: 0x153215F50",
     "Parameters": [
       {
         "Type": "int",
@@ -341,7 +341,7 @@
     "Index": "0x0014",
     "ReturnType": "void",
     "Name": "FUNCTION_0014",
-    "Description": "Address: 0x08978F20",
+    "Description": "Address: 0x08978F20. PC address: 0x1402A5770",
     "Parameters": [
       {
         "Type": "int",
@@ -354,7 +354,7 @@
     "Index": "0x0015",
     "ReturnType": "int",
     "Name": "FUNCTION_0015",
-    "Description": "Address: 0x08978FE8",
+    "Description": "Address: 0x08978FE8. PC address: 0x1402A5710",
     "Parameters": [
       {
         "Type": "int",
@@ -367,7 +367,7 @@
     "Index": "0x0016",
     "ReturnType": "int",
     "Name": "FUNCTION_0016",
-    "Description": "Address: 0x08979018",
+    "Description": "Address: 0x08979018. PC address: 0x1402A56D0",
     "Parameters": [
       {
         "Type": "int",
@@ -380,7 +380,7 @@
     "Index": "0x0017",
     "ReturnType": "void",
     "Name": "FUNCTION_0017",
-    "Description": "Address: 0x08979048",
+    "Description": "Address: 0x08979048. PC address: 0x1402A56B0",
     "Parameters": [
       {
         "Type": "int",
@@ -403,7 +403,7 @@
     "Index": "0x0018",
     "ReturnType": "int",
     "Name": "FUNCTION_0018",
-    "Description": "Address: 0x089790C8",
+    "Description": "Address: 0x089790C8. PC address: 0x1531AFA50",
     "Parameters": [
       {
         "Type": "int",
@@ -421,7 +421,7 @@
     "Index": "0x0019",
     "ReturnType": "void",
     "Name": "FUNCTION_0019",
-    "Description": "Address: 0x0897918C",
+    "Description": "Address: 0x0897918C. PC address: 0x1402A5850",
     "Parameters": [
       {
         "Type": "int",
@@ -434,7 +434,7 @@
     "Index": "0x001a",
     "ReturnType": "void",
     "Name": "FUNCTION_001A",
-    "Description": "Address: 0x089791D0",
+    "Description": "Address: 0x089791D0. PC address: 0x1531B13A0",
     "Parameters": [
       {
         "Type": "int",
@@ -447,7 +447,7 @@
     "Index": "0x001b",
     "ReturnType": "int",
     "Name": "FUNCTION_001B",
-    "Description": "Address: 0x089791F8",
+    "Description": "Address: 0x089791F8. PC address: 0x1402A5960",
     "Parameters": [
       {
         "Type": "int",
@@ -460,7 +460,7 @@
     "Index": "0x001c",
     "ReturnType": "int",
     "Name": "FUNCTION_001C",
-    "Description": "Address: 0x08979234",
+    "Description": "Address: 0x08979234. PC address: 0x1402A59A0",
     "Parameters": [
       {
         "Type": "int",
@@ -473,7 +473,7 @@
     "Index": "0x001d",
     "ReturnType": "void",
     "Name": "SET_MSG_VAR",
-    "Description": "Address: 0x08986F8C",
+    "Description": "Address: 0x08986F8C. PC address: 0x1402401F0",
     "Parameters": [
       {
         "Type": "int",
@@ -498,58 +498,64 @@
   {
     "Index": "0x001e",
     "ReturnType": "void",
-    "Name": "FUNCTION_001E",
-    "Description": "Address: 0x089792FC",
+    "Name": "CALL_SFX",
+    "Description": "Calls a sound effect from COMSE. Address: 0x089792FC. PC address: 0x1530A57B0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "MajorID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "MinorID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_001E"
     ]
   },
   {
     "Index": "0x001f",
     "ReturnType": "void",
     "Name": "FUNCTION_001F",
-    "Description": "Address: 0x08979344",
+    "Description": "Address: 0x08979344. PC address: 0x1402A5110",
     "Parameters": []
   },
   {
     "Index": "0x0020",
     "ReturnType": "void",
-    "Name": "FUNCTION_0020",
-    "Description": "Address: 0x0897934C",
+    "Name": "CALL_BTL_SFX",
+    "Description": "Calls a sound effect from BSE. Address: 0x0897934C. PC address: 0x153089C80",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "MajorID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "MinorID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0020"
     ]
   },
   {
     "Index": "0x0021",
     "ReturnType": "void",
     "Name": "FUNCTION_0021",
-    "Description": "Address: 0x08979394",
+    "Description": "Address: 0x08979394. PC address: 0x1402A50A0",
     "Parameters": []
   },
   {
     "Index": "0x0022",
     "ReturnType": "void",
     "Name": "BGM",
-    "Description": "Plays bgm based on id (XX.ADX). Note that only IDs in a hard-coded list will actually play",
+    "Description": "Plays bgm based on id (XX.ADX). Note that only IDs in a hard-coded list will actually play. PC address: 0x15306B9A0",
     "Parameters": [
       {
         "Type": "int",
@@ -565,11 +571,11 @@
     "Index": "0x0023",
     "ReturnType": "void",
     "Name": "BGM_STOP",
-    "Description": "Address: 0x089793C8",
+    "Description": "Address: 0x089793C8. PC address: 0x1402A4F40",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "fadeOut",
         "Description": ""
       }
     ],
@@ -580,60 +586,72 @@
   {
     "Index": "0x0024",
     "ReturnType": "void",
-    "Name": "FUNCTION_0024",
-    "Description": "Address: 0x08979528",
+    "Name": "CALL_EVE_EVL",
+    "Description": "Calls an EVE or EVL file. Address: 0x08979528. PC address: 0x153033CC0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "id",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0024"
     ]
   },
   {
     "Index": "0x0025",
     "ReturnType": "void",
-    "Name": "FUNCTION_0025",
-    "Description": "Address: 0x0897985C",
+    "Name": "EVE_EVL_STOP",
+    "Description": "Address: 0x0897985C. PC address: 0x1530649C0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "fadeOut",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0025"
     ]
   },
   {
     "Index": "0x0026",
     "ReturnType": "void",
-    "Name": "FUNCTION_0026",
-    "Description": "Address: 0x089798AC",
+    "Name": "CALL_ENV",
+    "Description": "Calls an ENV file. Unused. Address: 0x089798AC. PC address: 0x1402A4B00",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "id",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0026"
     ]
   },
   {
     "Index": "0x0027",
     "ReturnType": "void",
-    "Name": "FUNCTION_0027",
-    "Description": "Address: 0x089798F0",
+    "Name": "ENV_STOP",
+    "Description": "Address: 0x089798F0. PC address: 0x1402A4B50",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "fadeOut",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0027"
     ]
   },
   {
     "Index": "0x0028",
     "ReturnType": "void",
     "Name": "FUNCTION_0028",
-    "Description": "Address: 0x089799A0",
+    "Description": "Address: 0x089799A0. PC address: 0x1402A5200",
     "Parameters": [
       {
         "Type": "int",
@@ -666,7 +684,7 @@
     "Index": "0x0029",
     "ReturnType": "void",
     "Name": "FUNCTION_0029",
-    "Description": "Address: 0x08979A28",
+    "Description": "Address: 0x08979A28. PC address: 0x1402A5170",
     "Parameters": [
       {
         "Type": "int",
@@ -699,7 +717,7 @@
     "Index": "0x002a",
     "ReturnType": "void",
     "Name": "FUNCTION_002A",
-    "Description": "Address: 0x08979AB0",
+    "Description": "Address: 0x08979AB0. PC address: 0x1402A5290",
     "Parameters": [
       {
         "Type": "string",
@@ -711,21 +729,24 @@
   {
     "Index": "0x002b",
     "ReturnType": "void",
-    "Name": "FUNCTION_002B",
-    "Description": "Address: 0x0897977C",
+    "Name": "CALL_EVE_EVL_MONORAIL",
+    "Description": "Seems to only be used for when the monorail speeds up. Address: 0x0897977C. PC address: 0x153040C60",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "id",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_002B"
     ]
   },
   {
     "Index": "0x002c",
     "ReturnType": "void",
     "Name": "SEL_DEFKEY",
-    "Description": "Address: 0x08982AA8",
+    "Description": "Address: 0x08982AA8. PC address: 0x14023F520",
     "Parameters": [
       {
         "Type": "int",
@@ -746,7 +767,7 @@
     "Index": "0x002d",
     "ReturnType": "void",
     "Name": "MSG_TUTORIAL",
-    "Description": "Displays msg on help screen",
+    "Description": "Displays msg on help screen. PC address: 0x14023E7E0",
     "Parameters": [
       {
         "Type": "int",
@@ -763,7 +784,7 @@
     "Index": "0x002e",
     "ReturnType": "int",
     "Name": "GET_COUNT",
-    "Description": "Address: 0x08979050",
+    "Description": "Address: 0x08979050. PC address: 0x15314B120",
     "Parameters": [
       {
         "Type": "int",
@@ -779,7 +800,7 @@
     "Index": "0x002f",
     "ReturnType": "void",
     "Name": "SET_COUNT",
-    "Description": "Address: 0x08979080",
+    "Description": "Address: 0x08979080. PC address: 0x1531D44C0",
     "Parameters": [
       {
         "Type": "int",
@@ -800,7 +821,7 @@
     "Index": "0x0030",
     "ReturnType": "int",
     "Name": "GET_MONTH",
-    "Description": "Returns the current month",
+    "Description": "Returns the current month. PC address: 0x153F6A120",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0030"
@@ -810,7 +831,7 @@
     "Index": "0x0031",
     "ReturnType": "int",
     "Name": "GET_DAY",
-    "Description": "Returns the current day of the month",
+    "Description": "Returns the current day of the month. PC address: 0x153ED3E30",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0031"
@@ -820,7 +841,7 @@
     "Index": "0x0032",
     "ReturnType": "int",
     "Name": "GET_DAYOFWEEK",
-    "Description": "Returns the current day of the week",
+    "Description": "Returns the current day of the week. PC address: 0x153EE4E90",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0032"
@@ -830,7 +851,7 @@
     "Index": "0x0033",
     "ReturnType": "int",
     "Name": "GET_TIME",
-    "Description": "Returns current time of day",
+    "Description": "Returns current time of day. PC address: 0x153F765B0",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0033"
@@ -840,7 +861,7 @@
     "Index": "0x0034",
     "ReturnType": "int",
     "Name": "CHK_DAYS",
-    "Description": "Checks if on a specific month & day, returning true/1 if so and 0 otherwise",
+    "Description": "Checks if on a specific month & day, returning true/1 if so and 0 otherwise. PC address: 0x153EBF820",
     "Parameters": [
       {
         "Type": "int",
@@ -862,7 +883,7 @@
     "Index": "0x0035",
     "ReturnType": "int",
     "Name": "CHK_DAYS_STARTEND",
-    "Description": "Returns true if within the two dates",
+    "Description": "Returns true if within the two dates. PC address: 0x153EC6610",
     "Parameters": [
       {
         "Type": "int",
@@ -892,31 +913,34 @@
   {
     "Index": "0x0036",
     "ReturnType": "void",
-    "Name": "FUNCTION_0036",
-    "Description": "Address: 0x08972B14",
+    "Name": "SET_DATE",
+    "Description": "Sets any date and time to skip to. Requires NEXT_TIME after it to work. Address: 0x08972B14. PC address: 0x15400DA90",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "month",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "day",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param3",
+        "Name": "time",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0036"
     ]
   },
   {
     "Index": "0x0037",
     "ReturnType": "void",
     "Name": "FUNCTION_0037",
-    "Description": "Address: 0x08979C20",
+    "Description": "Address: 0x08979C20. PC address: 0x1530AD290",
     "Parameters": [
       {
         "Type": "int",
@@ -929,14 +953,14 @@
     "Index": "0x0038",
     "ReturnType": "void",
     "Name": "FUNCTION_0038",
-    "Description": "Address: 0x08979C60",
+    "Description": "Address: 0x08979C60. PC address: 0x1402A5150",
     "Parameters": []
   },
   {
     "Index": "0x0039",
     "ReturnType": "void",
     "Name": "FUNCTION_0039",
-    "Description": "Address: 0x08972C28",
+    "Description": "Address: 0x08972C28. PC address: 0x1402C26E0",
     "Parameters": [
       {
         "Type": "int",
@@ -954,7 +978,7 @@
     "Index": "0x003a",
     "ReturnType": "void",
     "Name": "FUNCTION_003A",
-    "Description": "Address: 0x08979410",
+    "Description": "Address: 0x08979410. PC address: 0x153037D70",
     "Parameters": [
       {
         "Type": "int",
@@ -972,41 +996,44 @@
     "Index": "0x003b",
     "ReturnType": "void",
     "Name": "FUNCTION_003B",
-    "Description": "Address: 0x089794DC",
+    "Description": "Address: 0x089794DC. PC address: 0x153035470",
     "Parameters": []
   },
   {
     "Index": "0x003c",
     "ReturnType": "void",
-    "Name": "FUNCTION_003C",
-    "Description": "Address: 0x089796B4",
+    "Name": "CALL_EVE_EVL_MSG",
+    "Description": "Calls an EVE or EVL but allows dialogue? Used at the final cutscene in the remaster. Address: 0x089796B4. PC address: 0x153046590",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "id",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_003C"
     ]
   },
   {
     "Index": "0x003d",
     "ReturnType": "void",
     "Name": "FUNCTION_003D",
-    "Description": "Address: 0x08978C5C",
+    "Description": "This, 003E, 003F, and 0043-0045 have the same pointer. All null. Address: 0x08978C5C. PC address: 0x1402A5C70",
     "Parameters": []
   },
   {
     "Index": "0x003e",
     "ReturnType": "void",
     "Name": "FUNCTION_003E",
-    "Description": "Address: 0x08978C5C",
+    "Description": "Address: 0x08978C5C. PC address: 0x1402A5C70",
     "Parameters": []
   },
   {
     "Index": "0x003f",
     "ReturnType": "void",
     "Name": "FUNCTION_003F",
-    "Description": "Address: 0x08978C5C",
+    "Description": "Address: 0x08978C5C. PC address: 0x1402A5C70",
     "Parameters": []
   },
   {
@@ -1044,42 +1071,45 @@
   {
     "Index": "0x0042",
     "ReturnType": "int",
-    "Name": "FUNCTION_0042",
-    "Description": "Address: 0x08973878",
+    "Name": "GET_PARTY_ID",
+    "Description": "Address: 0x08973878. PC address: 0x153F70600",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slot",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0042"
     ]
   },
   {
     "Index": "0x0043",
     "ReturnType": "void",
     "Name": "FUNCTION_0043",
-    "Description": "Address: 0x08978C5C",
+    "Description": "Address: 0x08978C5C. PC address: 0x1402A5C70",
     "Parameters": []
   },
   {
     "Index": "0x0044",
     "ReturnType": "void",
     "Name": "FUNCTION_0044",
-    "Description": "Address: 0x08978C5C",
+    "Description": "Address: 0x08978C5C. PC address: 0x1402A5C70",
     "Parameters": []
   },
   {
     "Index": "0x0045",
     "ReturnType": "void",
     "Name": "FUNCTION_0045",
-    "Description": "Address: 0x08978C5C",
+    "Description": "Address: 0x08978C5C. PC address: 0x1402A5C70",
     "Parameters": []
   },
   {
     "Index": "0x0046",
     "ReturnType": "void",
-    "Name": "FUNCTION_0046",
-    "Description": "Address: 0x089738D0",
+    "Name": "PLAY_CUTIN",
+    "Description": "Address: 0x089738D0. PC address: 0x1402C28C0",
     "Parameters": [
       {
         "Type": "int",
@@ -1093,21 +1123,24 @@
       },
       {
         "Type": "int",
-        "Name": "param3",
+        "Name": "characterID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param4",
+        "Name": "emotionID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_0046"
     ]
   },
   {
     "Index": "0x0047",
     "ReturnType": "void",
     "Name": "FUNCTION_0047",
-    "Description": "Address: 0x089739E4",
+    "Description": "Address: 0x089739E4. PC address: 0x1402C2840",
     "Parameters": [
       {
         "Type": "int",
@@ -1119,54 +1152,63 @@
   {
     "Index": "0x0048",
     "ReturnType": "void",
-    "Name": "FUNCTION_0048",
-    "Description": "Address: 0x08973D18",
+    "Name": "CHANGE_SCENE",
+    "Description": "Address: 0x08973D18. PC address: 0x1402C3270",
     "Parameters": []
+	"Aliases": [
+      "FUNCTION_0048"
+    ]
   },
   {
     "Index": "0x0049",
     "ReturnType": "void",
     "Name": "FUNCTION_0049",
-    "Description": "Address: 0x08A3B940",
+    "Description": "Address: 0x08A3B940. PC address: 0x147FC3E30",
     "Parameters": []
   },
   {
     "Index": "0x004a",
     "ReturnType": "void",
-    "Name": "FUNCTION_004A",
-    "Description": "Address: 0x08972C74",
+    "Name": "PLAY_EXPRESSION",
+    "Description": "Address: 0x08972C74. PC address: 0x1402C2C50",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "characterID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "expressionID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_004A"
     ]
   },
   {
     "Index": "0x004b",
     "ReturnType": "void",
-    "Name": "FUNCTION_004B",
-    "Description": "Address: 0x089B9E94",
+    "Name": "PLAY_BTL_ENCOUNTER_EFFECT",
+    "Description": "Address: 0x089B9E94. PC address: 0x145E63200",
     "Parameters": []
+	"Aliases": [
+      "FUNCTION_004B"
+    ]
   },
   {
     "Index": "0x004c",
     "ReturnType": "void",
     "Name": "FUNCTION_004C",
-    "Description": "Address: 0x089B9EB4",
+    "Description": "Address: 0x089B9EB4. PC address: 0x145E63F40",
     "Parameters": []
   },
   {
     "Index": "0x004d",
     "ReturnType": "void",
     "Name": "FUNCTION_004D",
-    "Description": "Address: 0x0897929C",
+    "Description": "Address: 0x0897929C. PC address: 0x1402A57B0",
     "Parameters": [
       {
         "Type": "int",
@@ -1184,48 +1226,51 @@
     "Index": "0x004e",
     "ReturnType": "void",
     "Name": "FUNCTION_004E",
-    "Description": "Address: 0x089792DC",
+    "Description": "Address: 0x089792DC. PC address: 0x1402A5790",
     "Parameters": []
   },
   {
     "Index": "0x004f",
     "ReturnType": "void",
-    "Name": "FUNCTION_004F",
-    "Description": "Address: 0x0881E534",
+    "Name": "SET_TIMELIMIT",
+    "Description": "Sets a time limit. Only used during the Monorail. Address: 0x0881E534. PC address: 0x140111D70",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
-        "Description": "Unknown type; assumed int"
+        "Name": "time",
+        "Description": ""
       }
+    ],
+    "Aliases": [
+      "FUNCTION_004F"
     ]
   },
   {
     "Index": "0x0050",
     "ReturnType": "int",
     "Name": "FUNCTION_0050",
-    "Description": "Address: 0x0881E58C",
+    "Description": "Address: 0x0881E58C. PC address: 0x140111DC0",
     "Parameters": []
   },
   {
     "Index": "0x0051",
     "ReturnType": "int",
     "Name": "FUNCTION_0051",
-    "Description": "Address: 0x0881E5B4",
+    "Description": "Address: 0x0881E5B4. PC address: 0x140111CE0",
     "Parameters": []
   },
   {
     "Index": "0x0052",
     "ReturnType": "int",
     "Name": "FUNCTION_0052",
-    "Description": "Address: 0x0881E5DC",
+    "Description": "Address: 0x0881E5DC. PC address: 0x140111CB0",
     "Parameters": []
   },
   {
     "Index": "0x0053",
     "ReturnType": "int",
     "Name": "FUNCTION_0053",
-    "Description": "Address: 0x0881E604",
+    "Description": "Address: 0x0881E604. PC address: 0x140111D40",
     "Parameters": [
       {
         "Type": "int",
@@ -1238,14 +1283,14 @@
     "Index": "0x0054",
     "ReturnType": "int",
     "Name": "FUNCTION_0054",
-    "Description": "Address: 0x0881E634",
+    "Description": "Address: 0x0881E634. PC address: 0x140111D10",
     "Parameters": []
   },
   {
     "Index": "0x0055",
     "ReturnType": "void",
     "Name": "FUNCTION_0055",
-    "Description": "Address: 0x089868DC",
+    "Description": "Address: 0x089868DC. PC address: 0x14023E4F0",
     "Parameters": [
       {
         "Type": "int",
@@ -1263,7 +1308,7 @@
     "Index": "0x0056",
     "ReturnType": "int",
     "Name": "MSG_SELECT",
-    "Description": "Address: 0x08986734",
+    "Description": "Address: 0x08986734. PC address: 0x15036B320",
     "Parameters": [
       {
         "Type": "int",
@@ -1291,28 +1336,28 @@
     "Index": "0x0057",
     "ReturnType": "void",
     "Name": "FUNCTION_0057",
-    "Description": "Address: 0x08872794",
+    "Description": "Address: 0x08872794. PC address: 0x14D02EB30",
     "Parameters": []
   },
   {
     "Index": "0x0058",
     "ReturnType": "void",
     "Name": "FUNCTION_0058",
-    "Description": "Address: 0x088727B4",
+    "Description": "Address: 0x088727B4. PC address: 0x1401B8630",
     "Parameters": []
   },
   {
     "Index": "0x0059",
     "ReturnType": "void",
     "Name": "FUNCTION_0059",
-    "Description": "Address: 0x088727D4",
+    "Description": "Address: 0x088727D4. PC address: 0x1401B85D0",
     "Parameters": []
   },
   {
     "Index": "0x005a",
     "ReturnType": "void",
     "Name": "FUNCTION_005A",
-    "Description": "Address: 0x088727F4",
+    "Description": "Address: 0x088727F4. PC address: 0x14D063E20",
     "Parameters": [
       {
         "Type": "int",
@@ -1330,21 +1375,21 @@
     "Index": "0x005b",
     "ReturnType": "void",
     "Name": "FUNCTION_005B",
-    "Description": "Address: 0x08872834",
+    "Description": "Address: 0x08872834. PC address: 0x1401B86F0",
     "Parameters": []
   },
   {
     "Index": "0x005c",
     "ReturnType": "void",
     "Name": "FUNCTION_005C",
-    "Description": "Address: 0x08872854",
+    "Description": "Address: 0x08872854. PC address: 0x1401B8730",
     "Parameters": []
   },
   {
     "Index": "0x005d",
     "ReturnType": "void",
     "Name": "FUNCTION_005D",
-    "Description": "Address: 0x08872874",
+    "Description": "Address: 0x08872874. PC address: 0x1401B8750",
     "Parameters": [
       {
         "Type": "int",
@@ -1362,14 +1407,14 @@
     "Index": "0x005e",
     "ReturnType": "void",
     "Name": "FUNCTION_005E",
-    "Description": "Address: 0x088728B4",
+    "Description": "Address: 0x088728B4. PC address: 0x1401B8710",
     "Parameters": []
   },
   {
     "Index": "0x005f",
     "ReturnType": "void",
     "Name": "FUNCTION_005F",
-    "Description": "Address: 0x088728D4",
+    "Description": "Address: 0x088728D4. PC address: 0x14D09F210",
     "Parameters": [
       {
         "Type": "int",
@@ -1387,14 +1432,14 @@
     "Index": "0x0060",
     "ReturnType": "void",
     "Name": "FUNCTION_0060",
-    "Description": "Address: 0x08872914",
+    "Description": "Address: 0x08872914. PC address: 0x1401B8790",
     "Parameters": []
   },
   {
     "Index": "0x0061",
     "ReturnType": "void",
     "Name": "FUNCTION_0061",
-    "Description": "Address: 0x08872934",
+    "Description": "Address: 0x08872934. PC address: 0x1401B8520",
     "Parameters": [
       {
         "Type": "int",
@@ -1427,21 +1472,21 @@
     "Index": "0x0062",
     "ReturnType": "int",
     "Name": "FUNCTION_0062",
-    "Description": "Address: 0x088729BC",
+    "Description": "Address: 0x088729BC. PC address: 0x1401B8690",
     "Parameters": []
   },
   {
     "Index": "0x0063",
     "ReturnType": "int",
     "Name": "FUNCTION_0063",
-    "Description": "Address: 0x088729E4",
+    "Description": "Address: 0x088729E4. PC address: 0x1401B86C0",
     "Parameters": []
   },
   {
     "Index": "0x0064",
     "ReturnType": "void",
     "Name": "CUTIN_START",
-    "Description": "Opens cutin with parameters deciding which one to show",
+    "Description": "Opens cutin with parameters deciding which one to show. PC address: 0x153E728D0",
     "Parameters": [
       {
         "Type": "int",
@@ -1488,7 +1533,7 @@
     "Index": "0x0065",
     "ReturnType": "void",
     "Name": "CUTIN_STOP",
-    "Description": "Closes a loaded cutin",
+    "Description": "Closes a loaded cutin. PC address: 0x153FCF8D0",
     "Parameters": [
       {
         "Type": "int",
@@ -1505,7 +1550,7 @@
     "Index": "0x0066",
     "ReturnType": "int",
     "Name": "FUNCTION_0066",
-    "Description": "Address: 0x08872A0C",
+    "Description": "Address: 0x08872A0C. PC address: 0x1401B84E0",
     "Parameters": [
       {
         "Type": "int",
@@ -1517,12 +1562,12 @@
   {
     "Index": "0x0067",
     "ReturnType": "void",
-    "Name": "HD_FUNCTION_0067",
-    "Description": "",
+    "Name": "UNLOCK_ACHIEVEMENT",
+    "Description": "Remaster only. PC address: 0x1402CA4B0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "trophyID",
         "Description": ""
       },
       {
@@ -1532,6 +1577,7 @@
       }
     ],
     "Aliases": [
+	  "HD_FUNCTION_0067",
       "FUNCTION_0067"
     ]
   },
@@ -1539,7 +1585,7 @@
     "Index": "0x0068",
     "ReturnType": "int",
     "Name": "HD_FUNCTION_0068",
-    "Description": "",
+    "Description": "Remaster only. PC address: 0x1401B87B0",
     "Parameters": [],
     "Aliases": [
       "FUNCTION_0068"

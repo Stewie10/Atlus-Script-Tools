@@ -3,7 +3,7 @@
     "Index": "0x3000",
     "ReturnType": "void",
     "Name": "CALL_BG_IMG",
-    "Description": "Address: 0x089B30A4",
+    "Description": "Address: 0x089B30A4. PC address: 0x14A16EA30",
     "Parameters": [
       {
         "Type": "int",
@@ -33,29 +33,32 @@
   {
     "Index": "0x3001",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0001",
-    "Description": "Address: 0x089B317C",
+    "Name": "END_EVENT",
+    "Description": "Address: 0x089B317C. PC address: 0x14A185580",
     "Parameters": []
+	"Aliases": [
+      "EVT_FUNCTION_0001"
+    ]
   },
   {
     "Index": "0x3002",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0002",
-    "Description": "Address: 0x08991C54",
+    "Description": "Address: 0x08991C54. PC address: 0x14C2CF630",
     "Parameters": []
   },
   {
     "Index": "0x3003",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0003",
-    "Description": "Address: 0x089B319C",
+    "Description": "Address: 0x089B319C. PC address: 0x14A17EEF0",
     "Parameters": []
   },
   {
     "Index": "0x3004",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0004",
-    "Description": "Address: 0x08A5F338",
+    "Description": "Address: 0x08A5F338. PC address: 0x14BE46F90",
     "Parameters": [
       {
         "Type": "int",
@@ -68,7 +71,7 @@
     "Index": "0x3005",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0005",
-    "Description": "Address: 0x08A5F394",
+    "Description": "Address: 0x08A5F394. PC address: 0x1401756E0",
     "Parameters": [
       {
         "Type": "int",
@@ -81,7 +84,7 @@
     "Index": "0x3006",
     "ReturnType": "int",
     "Name": "CMM_GET_LV",
-    "Description": "Address: 0x08A5F3D4",
+    "Description": "Address: 0x08A5F3D4. PC address: 0x14BE125D0",
     "Parameters": [
       {
         "Type": "int",
@@ -97,7 +100,7 @@
     "Index": "0x3007",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0007",
-    "Description": "Address: 0x08A5F414",
+    "Description": "Address: 0x08A5F414. PC address: 0x14BE1C200",
     "Parameters": [
       {
         "Type": "int",
@@ -110,7 +113,7 @@
     "Index": "0x3008",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0008",
-    "Description": "Address: 0x08A5F4A0",
+    "Description": "Address: 0x08A5F4A0. PC address: 0x140174DA0",
     "Parameters": [
       {
         "Type": "int",
@@ -128,7 +131,7 @@
     "Index": "0x3009",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0009",
-    "Description": "Address: 0x08A5F704",
+    "Description": "Address: 0x08A5F704. PC address: 0x140175380",
     "Parameters": [
       {
         "Type": "int",
@@ -141,7 +144,7 @@
     "Index": "0x300a",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_000A",
-    "Description": "Address: 0x08A5F75C",
+    "Description": "Address: 0x08A5F75C. PC address: 0x140175F90",
     "Parameters": [
       {
         "Type": "int",
@@ -154,14 +157,14 @@
     "Index": "0x300b",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_000B",
-    "Description": "Address: 0x08A5F798",
+    "Description": "Address: 0x08A5F798. PC address: 0x140175850",
     "Parameters": []
   },
   {
     "Index": "0x300c",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_000C",
-    "Description": "Address: 0x08A5F8AC",
+    "Description": "Address: 0x08A5F8AC. PC address: 0x14BE6B030",
     "Parameters": [
       {
         "Type": "int",
@@ -179,21 +182,21 @@
     "Index": "0x300d",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_000D",
-    "Description": "Address: 0x08A5F9E8",
+    "Description": "Address: 0x08A5F9E8. PC address: 0x1401755F0",
     "Parameters": []
   },
   {
     "Index": "0x300e",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_000E",
-    "Description": "Address: 0x08A5FB18",
+    "Description": "Address: 0x08A5FB18. PC address: 0x1401757B0",
     "Parameters": []
   },
   {
     "Index": "0x300f",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_000F",
-    "Description": "Address: 0x08A5F44C",
+    "Description": "Address: 0x08A5F44C. PC address: 0x1401754C0",
     "Parameters": [
       {
         "Type": "int",
@@ -206,7 +209,7 @@
     "Index": "0x3010",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0010",
-    "Description": "Address: 0x08A5F554",
+    "Description": "Address: 0x08A5F554. PC address: 0x140175560",
     "Parameters": [
       {
         "Type": "int",
@@ -219,7 +222,7 @@
     "Index": "0x3011",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0011",
-    "Description": "Address: 0x08A5F62C",
+    "Description": "Address: 0x08A5F62C. PC address: 0x140175330",
     "Parameters": [
       {
         "Type": "int",
@@ -232,7 +235,7 @@
     "Index": "0x3012",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0012",
-    "Description": "Address: 0x08A5F5A8",
+    "Description": "Address: 0x08A5F5A8. PC address: 0x140175FD0",
     "Parameters": [
       {
         "Type": "int",
@@ -250,7 +253,7 @@
     "Index": "0x3013",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0013",
-    "Description": "Address: 0x08A5F680",
+    "Description": "Address: 0x08A5F680. PC address: 0x140175EE0",
     "Parameters": [
       {
         "Type": "int",
@@ -267,21 +270,24 @@
   {
     "Index": "0x3014",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0014",
-    "Description": "Address: 0x08A5FB48",
+    "Name": "ARCANA_DISP",
+    "Description": "Address: 0x08A5FB48. PC address: 0x140176040",
     "Parameters": [
       {
-        "Type": "int",
-        "Name": "param1",
+        "Type": "Arcana",
+        "Name": "arcanaID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_0014"
     ]
   },
   {
     "Index": "0x3015",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0015",
-    "Description": "Address: 0x08A600B4",
+    "Description": "Address: 0x08A600B4. PC address: 0x140175720",
     "Parameters": [
       {
         "Type": "int",
@@ -294,7 +300,7 @@
     "Index": "0x3016",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0016",
-    "Description": "Address: 0x08A600EC",
+    "Description": "Address: 0x08A600EC. PC address: 0x140175400",
     "Parameters": [
       {
         "Type": "int",
@@ -312,7 +318,7 @@
     "Index": "0x3017",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0017",
-    "Description": "Address: 0x08A60178",
+    "Description": "Address: 0x08A60178. PC address: 0x14BDFCF50",
     "Parameters": [
       {
         "Type": "int",
@@ -325,21 +331,21 @@
     "Index": "0x3018",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0018",
-    "Description": "Address: 0x08A601C0",
+    "Description": "Address: 0x08A601C0. PC address: 0x1401757E0",
     "Parameters": []
   },
   {
     "Index": "0x3019",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0019",
-    "Description": "Address: 0x08A5F7C0",
+    "Description": "Address: 0x08A5F7C0. PC address: 0x140175510",
     "Parameters": []
   },
   {
     "Index": "0x301a",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_001A",
-    "Description": "Address: 0x08A601E8",
+    "Description": "Address: 0x08A601E8. PC address: 0x1401752E0",
     "Parameters": [
       {
         "Type": "int",
@@ -352,21 +358,21 @@
     "Index": "0x301b",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_001B",
-    "Description": "Address: 0x08A6023C",
+    "Description": "Address: 0x08A6023C. PC address: 0x140175490",
     "Parameters": []
   },
   {
     "Index": "0x301c",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_001C",
-    "Description": "Address: 0x08A5F820",
+    "Description": "Address: 0x08A5F820. PC address: 0x140175880",
     "Parameters": []
   },
   {
     "Index": "0x301d",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_001D",
-    "Description": "Address: 0x08A5FD7C",
+    "Description": "Address: 0x08A5FD7C. PC address: 0x140176220",
     "Parameters": [
       {
         "Type": "int",
@@ -384,7 +390,7 @@
     "Index": "0x301e",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_001E",
-    "Description": "Address: 0x08A6028C",
+    "Description": "Address: 0x08A6028C. PC address: 0x140175F50",
     "Parameters": [
       {
         "Type": "int",
@@ -397,7 +403,7 @@
     "Index": "0x301f",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_001F",
-    "Description": "Address: 0x08A60358",
+    "Description": "Address: 0x08A60358. PC address: 0x140174EA0",
     "Parameters": [
       {
         "Type": "int",
@@ -410,14 +416,14 @@
     "Index": "0x3020",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0020",
-    "Description": "Address: 0x08A60388",
+    "Description": "Address: 0x08A60388. PC address: 0x140174ED0",
     "Parameters": []
   },
   {
     "Index": "0x3021",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0021",
-    "Description": "Address: 0x08A603C8",
+    "Description": "Address: 0x08A603C8. PC address: 0x140174E60",
     "Parameters": [
       {
         "Type": "int",
@@ -430,7 +436,7 @@
     "Index": "0x3022",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0022",
-    "Description": "Address: 0x08A5FF38",
+    "Description": "Address: 0x08A5FF38. PC address: 0x140176380",
     "Parameters": [
       {
         "Type": "int",
@@ -443,7 +449,7 @@
     "Index": "0x3023",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0023",
-    "Description": "Address: 0x08A602C4",
+    "Description": "Address: 0x08A602C4. PC address: 0x14BE008E0",
     "Parameters": [
       {
         "Type": "int",
@@ -456,28 +462,28 @@
     "Index": "0x3024",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0024",
-    "Description": "Address: 0x08A60264",
+    "Description": "Address: 0x08A60264. PC address: 0x140175460",
     "Parameters": []
   },
   {
     "Index": "0x3025",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0025",
-    "Description": "Address: 0x08A60428",
+    "Description": "Address: 0x08A60428. PC address: 0x140175940",
     "Parameters": []
   },
   {
     "Index": "0x3026",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0026",
-    "Description": "Address: 0x08A60458",
+    "Description": "Address: 0x08A60458. PC address: 0x14BE1CEB0",
     "Parameters": []
   },
   {
     "Index": "0x3027",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0027",
-    "Description": "Address: 0x08A60488",
+    "Description": "Address: 0x08A60488. PC address: 0x1401759F0",
     "Parameters": [
       {
         "Type": "int",
@@ -495,7 +501,7 @@
     "Index": "0x3028",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0028",
-    "Description": "Address: 0x08A60550",
+    "Description": "Address: 0x08A60550. PC address: 0x140175A60",
     "Parameters": [
       {
         "Type": "int",
@@ -508,7 +514,7 @@
     "Index": "0x3029",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0029",
-    "Description": "Address: 0x08A605BC",
+    "Description": "Address: 0x08A605BC. PC address: 0x140175AB0",
     "Parameters": [
       {
         "Type": "int",
@@ -521,7 +527,7 @@
     "Index": "0x302a",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_002A",
-    "Description": "Address: 0x08A602F4",
+    "Description": "Address: 0x08A602F4. PC address: 0x14BE069B0",
     "Parameters": [
       {
         "Type": "int",
@@ -534,7 +540,7 @@
     "Index": "0x302b",
     "ReturnType": "void",
     "Name": "CMM_SET_LV",
-    "Description": "Address: 0x08A60824",
+    "Description": "Address: 0x08A60824. PC address: 0x140175D90",
     "Parameters": [
       {
         "Type": "int",
@@ -560,7 +566,7 @@
     "Index": "0x302c",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_002C",
-    "Description": "Address: 0x08A608BC",
+    "Description": "Address: 0x08A608BC. PC address: 0x140175080",
     "Parameters": [
       {
         "Type": "int",
@@ -578,7 +584,7 @@
     "Index": "0x302d",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_002D",
-    "Description": "Address: 0x08A60904",
+    "Description": "Address: 0x08A60904. PC address: 0x140175130",
     "Parameters": [
       {
         "Type": "int",
@@ -591,7 +597,7 @@
     "Index": "0x302e",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_002E",
-    "Description": "Address: 0x08A60AD0",
+    "Description": "Address: 0x08A60AD0. PC address: 0x1401750D0",
     "Parameters": [
       {
         "Type": "int",
@@ -614,7 +620,7 @@
     "Index": "0x302f",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_002F",
-    "Description": "Address: 0x08A60B30",
+    "Description": "Address: 0x08A60B30. PC address: 0x140174F10",
     "Parameters": [
       {
         "Type": "int",
@@ -632,7 +638,7 @@
     "Index": "0x3030",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0030",
-    "Description": "Address: 0x08A5F4FC",
+    "Description": "Address: 0x08A5F4FC. PC address: 0x140174E00",
     "Parameters": [
       {
         "Type": "int",
@@ -655,28 +661,28 @@
     "Index": "0x3031",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0031",
-    "Description": "Address: 0x08A603F8",
+    "Description": "Address: 0x08A603F8. PC address: 0x1401759C0",
     "Parameters": []
   },
   {
     "Index": "0x3032",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0032",
-    "Description": "Address: 0x08994FFC",
+    "Description": "Address: 0x08994FFC. PC address: 0x14D6F4120",
     "Parameters": []
   },
   {
     "Index": "0x3033",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0033",
-    "Description": "Address: 0x08995050",
+    "Description": "Address: 0x08995050. PC address: 0x1401CC9E0",
     "Parameters": []
   },
   {
     "Index": "0x3034",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0034",
-    "Description": "Address: 0x08995078",
+    "Description": "Address: 0x08995078. PC address: 0x1401CC9B0",
     "Parameters": [
       {
         "Type": "int",
@@ -688,57 +694,66 @@
   {
     "Index": "0x3035",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0035",
-    "Description": "Address: 0x08991F70",
+    "Name": "GET_EVENT_MODEL",
+    "Description": "Address: 0x08991F70. PC address: 0x14C331450",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "evtModelID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_0035"
     ]
   },
   {
     "Index": "0x3036",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0036",
-    "Description": "Address: 0x08992058",
+    "Name": "EVENT_MODEL_DISP",
+    "Description": "Address: 0x08992058. PC address: 0x14C3661D0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "disp",
+        "Description": "0 - hide model. 1 - disp model"
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_0036"
     ]
   },
   {
     "Index": "0x3037",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0037",
-    "Description": "Address: 0x089920B4",
+    "Name": "EVENT_MODEL_REMOVE",
+    "Description": "Unloads it from memory. Address: 0x089920B4. PC address: 0x14C318930",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_0037"
     ]
   },
   {
     "Index": "0x3038",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0038",
-    "Description": "Address: 0x089922CC",
+    "Description": "Address: 0x089922CC. PC address: 0x14017E960",
     "Parameters": [
       {
         "Type": "int",
@@ -750,73 +765,82 @@
   {
     "Index": "0x3039",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0039",
-    "Description": "Address: 0x089924C4",
+    "Name": "SCREEN_SHAKE",
+    "Description": "Address: 0x089924C4. PC address: 0x14C377530",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "intensity",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
+        "Name": "frames",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_0039"
     ]
   },
   {
     "Index": "0x303a",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_003A",
-    "Description": "Address: 0x08992504",
+    "Description": "Address: 0x08992504. PC address: 0x14C3983E0",
     "Parameters": []
   },
   {
     "Index": "0x303b",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_003B",
-    "Description": "Address: 0x08992524",
+    "Name": "GET_EVENT_EFFECT",
+    "Description": "Address: 0x08992524. PC address: 0x14C2E5410",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "effectID",
+        "Description": "Gets the ID from event/epl"
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_003B"
     ]
   },
   {
     "Index": "0x303c",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_003C",
-    "Description": "Address: 0x08992608",
+    "Name": "EVENT_EFFECT_DISP",
+    "Description": "Address: 0x08992608. PC address: 0x14C3010F0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "disp",
+        "Description": "0 - hide effect. 1 - disp effect"
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_003C"
     ]
   },
   {
     "Index": "0x303d",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_003D",
-    "Description": "Address: 0x0899269C",
+    "Description": "Related to event effects. Address: 0x0899269C. PC address: 0x14017E8A0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       }
     ]
@@ -824,21 +848,24 @@
   {
     "Index": "0x303e",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_003E",
-    "Description": "Address: 0x0899270C",
+    "Name": "EVENT_EFFECT_REMOVE",
+    "Description": "Address: 0x0899270C. PC address: 0x14C2D3BF0",
     "Parameters": [
       {
         "Type": "int",
-        "Name": "param1",
+        "Name": "slotID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_003E"
     ]
   },
   {
     "Index": "0x303f",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_003F",
-    "Description": "Address: 0x089927A4",
+    "Description": "Address: 0x089927A4. PC address: 0x14017E810",
     "Parameters": [
       {
         "Type": "int",
@@ -861,7 +888,7 @@
     "Index": "0x3040",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0040",
-    "Description": "Address: 0x089B31BC",
+    "Description": "Address: 0x089B31BC. PC address: 0x14A19A260",
     "Parameters": [
       {
         "Type": "int",
@@ -884,14 +911,14 @@
     "Index": "0x3041",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0041",
-    "Description": "Address: 0x089B3214",
+    "Description": "Address: 0x089B3214. PC address: 0x14A1CA6C0",
     "Parameters": []
   },
   {
     "Index": "0x3042",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0042",
-    "Description": "Address: 0x08992858",
+    "Description": "Address: 0x08992858. PC address: 0x14017E6E0",
     "Parameters": [
       {
         "Type": "int",
@@ -909,7 +936,7 @@
     "Index": "0x3043",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0043",
-    "Description": "Address: 0x089B32AC",
+    "Description": "Address: 0x089B32AC. PC address: 0x14A1D4830",
     "Parameters": [
       {
         "Type": "int",
@@ -922,7 +949,7 @@
     "Index": "0x3044",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0044",
-    "Description": "Address: 0x089B32D4",
+    "Description": "Address: 0x089B32D4. PC address: 0x14A1E5980",
     "Parameters": [
       {
         "Type": "int",
@@ -940,14 +967,14 @@
     "Index": "0x3045",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0045",
-    "Description": "Address: 0x089B3314",
+    "Description": "Address: 0x089B3314. PC address: 0x140103050",
     "Parameters": []
   },
   {
     "Index": "0x3046",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0046",
-    "Description": "Address: 0x089950A8",
+    "Description": "Address: 0x089950A8. PC address: 0x1401CC190",
     "Parameters": [
       {
         "Type": "int",
@@ -965,7 +992,7 @@
     "Index": "0x3047",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0047",
-    "Description": "Address: 0x089954F0",
+    "Description": "Address: 0x089954F0. PC address: 0x1401CC120",
     "Parameters": [
       {
         "Type": "int",
@@ -978,7 +1005,7 @@
     "Index": "0x3048",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0048",
-    "Description": "Address: 0x089955B8",
+    "Description": "Address: 0x089955B8. PC address: 0x14D6958F0",
     "Parameters": [
       {
         "Type": "int",
@@ -991,14 +1018,14 @@
     "Index": "0x3049",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0049",
-    "Description": "Address: 0x089B3394",
+    "Description": "Address: 0x089B3394. PC address: 0x140102E10",
     "Parameters": []
   },
   {
     "Index": "0x304a",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_004A",
-    "Description": "Address: 0x089B3334",
+    "Description": "Address: 0x089B3334. PC address: 0x140102E60",
     "Parameters": [
       {
         "Type": "int",
@@ -1011,7 +1038,7 @@
     "Index": "0x304b",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_004B",
-    "Description": "Address: 0x08995678",
+    "Description": "Address: 0x08995678. PC address: 0x14D6CED90",
     "Parameters": [
       {
         "Type": "int",
@@ -1024,7 +1051,7 @@
     "Index": "0x304c",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_004C",
-    "Description": "Address: 0x08995744",
+    "Description": "Address: 0x08995744. PC address: 0x1401CBEE0",
     "Parameters": [
       {
         "Type": "int",
@@ -1037,7 +1064,7 @@
     "Index": "0x304d",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_004D",
-    "Description": "Address: 0x08995554",
+    "Description": "Address: 0x08995554. PC address: 0x1401CC0B0",
     "Parameters": [
       {
         "Type": "int",
@@ -1049,8 +1076,8 @@
   {
     "Index": "0x304e",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_004E",
-    "Description": "Address: 0x08992128",
+    "Name": "EVENT_MODEL_ANIM",
+    "Description": "Address: 0x08992128. PC address: 0x14C349670",
     "Parameters": [
       {
         "Type": "int",
@@ -1059,8 +1086,8 @@
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "animID",
+        "Description": "Uses index from the model as the ID"
       },
       {
         "Type": "int",
@@ -1087,13 +1114,16 @@
         "Name": "param7",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_004E"
     ]
   },
   {
     "Index": "0x304f",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_004F",
-    "Description": "Address: 0x0899225C",
+    "Description": "Address: 0x0899225C. PC address: 0x14017ED30",
     "Parameters": [
       {
         "Type": "int",
@@ -1106,7 +1136,7 @@
     "Index": "0x3050",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_0050",
-    "Description": "Address: 0x089957E8",
+    "Description": "Address: 0x089957E8. PC address: 0x1401CBF70",
     "Parameters": [
       {
         "Type": "int",
@@ -1118,22 +1148,28 @@
   {
     "Index": "0x3051",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0051",
-    "Description": "Address: 0x08992CC4",
+    "Name": "PLAY_GAMEOVER_MSG",
+    "Description": "Text scroll for the game over sceen. Only plays the first msg in the bmd file. Address: 0x08992CC4. PC address: 0x14C3DEF50",
     "Parameters": []
+	"Aliases": [
+      "EVT_FUNCTION_0051"
+    ]
   },
   {
     "Index": "0x3052",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0052",
-    "Description": "Address: 0x08992E5C",
+    "Name": "GAMEOVER_MSG_WAIT",
+    "Description": "Makes the flowscript wait until the text scroll finishes. Address: 0x08992E5C. PC address: 0x14017F060",
     "Parameters": []
+	"Aliases": [
+      "EVT_FUNCTION_0052"
+    ]
   },
   {
     "Index": "0x3053",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0053",
-    "Description": "Address: 0x089B3234",
+    "Description": "Address: 0x089B3234. PC address: 0x14A19CA10",
     "Parameters": [
       {
         "Type": "int",
@@ -1156,28 +1192,28 @@
     "Index": "0x3054",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0054",
-    "Description": "Address: 0x089B328C",
+    "Description": "Address: 0x089B328C. PC address: 0x14A1B1470",
     "Parameters": []
   },
   {
     "Index": "0x3055",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0055",
-    "Description": "Address: 0x08991D38",
+    "Description": "Address: 0x08991D38. PC address: 0x14017E620",
     "Parameters": []
   },
   {
     "Index": "0x3056",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0056",
-    "Description": "Address: 0x08991C34",
+    "Description": "Address: 0x08991C34. PC address: 0x14017EE50",
     "Parameters": []
   },
   {
     "Index": "0x3057",
     "ReturnType": "int",
     "Name": "FLD_GET_MAJOR",
-    "Description": "Address: 0x08994F64",
+    "Description": "Address: 0x08994F64. PC address: 0x1401CC8B0",
     "Parameters": [],
     "Aliases": [
       "EVT_FUNCTION_0057"
@@ -1187,7 +1223,7 @@
     "Index": "0x3058",
     "ReturnType": "int",
     "Name": "FLD_GET_MINOR",
-    "Description": "Address: 0x08994FB0",
+    "Description": "Address: 0x08994FB0. PC address: 0x14D6ED650",
     "Parameters": [],
     "Aliases": [
       "EVT_FUNCTION_0058"
@@ -1197,7 +1233,7 @@
     "Index": "0x3059",
     "ReturnType": "void",
     "Name": "EVT_FUNCTION_0059",
-    "Description": "Address: 0x08992EA4",
+    "Description": "Address: 0x08992EA4. PC address: 0x14C3B5390",
     "Parameters": [
       {
         "Type": "int",
@@ -1209,21 +1245,24 @@
   {
     "Index": "0x305a",
     "ReturnType": "int",
-    "Name": "EVT_FUNCTION_005A",
-    "Description": "Address: 0x08995B40",
+    "Name": "GET_SILVER_DOOR_BOSS",
+    "Description": "Address: 0x08995B40. PC address: 0x1401CC600",
     "Parameters": [
       {
-        "Type": "int",
-        "Name": "param1",
+        "Type": "SilverDoorEncount",
+        "Name": "encounterID",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "EVT_FUNCTION_005A"
     ]
   },
   {
     "Index": "0x305b",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_005B",
-    "Description": "Address: 0x08995CF8",
+    "Description": "Address: 0x08995CF8. PC address: 0x1401CC3A0",
     "Parameters": [
       {
         "Type": "int",
@@ -1236,7 +1275,7 @@
     "Index": "0x305c",
     "ReturnType": "int",
     "Name": "EVT_FUNCTION_005C",
-    "Description": "Address: 0x08995E7C",
+    "Description": "Address: 0x08995E7C. PC address: 0x1401CC4D0",
     "Parameters": [
       {
         "Type": "int",

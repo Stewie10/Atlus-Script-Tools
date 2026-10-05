@@ -3,7 +3,7 @@
     "Index": "0x1000",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0000",
-    "Description": "Address: 0x088C1A2C",
+    "Description": "Address: 0x088C1A2C. PC address: 0x14F2FB970",
     "Parameters": [
       {
         "Type": "int",
@@ -21,21 +21,21 @@
     "Index": "0x1001",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0001",
-    "Description": "Address: 0x088C3280",
+    "Description": "Address: 0x088C3280. PC address: 0x1402232B0",
     "Parameters": []
   },
   {
     "Index": "0x1002",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0002",
-    "Description": "Address: 0x088C1658",
+    "Description": "Address: 0x088C1658. PC address: 0x14F2BF920",
     "Parameters": []
   },
   {
     "Index": "0x1003",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0003",
-    "Description": "Address: 0x088C1A6C",
+    "Description": "Address: 0x088C1A6C. PC address: 0x14F338D60",
     "Parameters": [
       {
         "Type": "int",
@@ -67,22 +67,25 @@
   {
     "Index": "0x1004",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0004",
-    "Description": "Address: 0x088C1678",
+    "Name": "GET_FLOOR_ID",
+    "Description": "Address: 0x088C1678. PC address: 0x14F2E6CF0",
     "Parameters": []
+	"Aliases": [
+      "FLD_FUNCTION_0004"
+    ]
   },
   {
     "Index": "0x1005",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0005",
-    "Description": "Address: 0x088C1788",
+    "Description": "Address: 0x088C1788. PC address: 0x14F383680",
     "Parameters": []
   },
   {
     "Index": "0x1006",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0006",
-    "Description": "Address: 0x088C2CF0",
+    "Description": "Address: 0x088C2CF0. PC address: 0x140225740",
     "Parameters": [
       {
         "Type": "int",
@@ -99,8 +102,8 @@
   {
     "Index": "0x1007",
     "ReturnType": "void",
-    "Name": "FLD_FUNCTION_0007",
-    "Description": "Address: 0x088C2D18",
+    "Name": "CAMERA_ROTATION",
+    "Description": "Address: 0x088C2D18. PC address: 0x140225770",
     "Parameters": [
       {
         "Type": "int",
@@ -112,62 +115,65 @@
         "Name": "param2",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FLD_FUNCTION_0007"
     ]
   },
   {
     "Index": "0x1008",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0008",
-    "Description": "Address: 0x088C2FEC",
+    "Description": "Address: 0x088C2FEC. PC address: 0x14F40CC20",
     "Parameters": []
   },
   {
     "Index": "0x1009",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0009",
-    "Description": "Address: 0x088C3014",
+    "Description": "Address: 0x088C3014. PC address: 0x140225340",
     "Parameters": []
   },
   {
     "Index": "0x100a",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_000A",
-    "Description": "Address: 0x088C30E4",
+    "Description": "Address: 0x088C30E4. PC address: 0x14F3DA380",
     "Parameters": []
   },
   {
     "Index": "0x100b",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_000B",
-    "Description": "Address: 0x088C3494",
+    "Description": "Address: 0x088C3494. PC address: 0x140225290",
     "Parameters": []
   },
   {
     "Index": "0x100c",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_000C",
-    "Description": "Address: 0x088C3110",
+    "Description": "Address: 0x088C3110. PC address: 0x1402252D0",
     "Parameters": []
   },
   {
     "Index": "0x100d",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_000D",
-    "Description": "Address: 0x088C34D4",
+    "Description": "Address: 0x088C34D4. PC address: 0x14F225FA0",
     "Parameters": []
   },
   {
     "Index": "0x100e",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_000E",
-    "Description": "Address: 0x088C315C",
+    "Description": "Address: 0x088C315C. PC address: 0x14F42E5D0",
     "Parameters": []
   },
   {
     "Index": "0x100f",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_000F",
-    "Description": "Address: 0x088C1C3C",
+    "Description": "Address: 0x088C1C3C. PC address: 0x140223870",
     "Parameters": [
       {
         "Type": "int",
@@ -180,14 +186,14 @@
     "Index": "0x1010",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0010",
-    "Description": "Address: 0x088C3454",
+    "Description": "Address: 0x088C3454. PC address: 0x140225310",
     "Parameters": []
   },
   {
     "Index": "0x1011",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0011",
-    "Description": "Address: 0x088C3288",
+    "Description": "Address: 0x088C3288. PC address: 0x1402256F0",
     "Parameters": [
       {
         "Type": "int",
@@ -200,7 +206,7 @@
     "Index": "0x1012",
     "ReturnType": "void",
     "Name": "FLD_START_SUPPORT_MSG",
-    "Description": "Address: 0x088C2F18",
+    "Description": "Address: 0x088C2F18. PC address: 0x14F450220",
     "Parameters": [
       {
         "Type": "int",
@@ -222,7 +228,7 @@
     "Index": "0x1013",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0013",
-    "Description": "Address: 0x088C3584",
+    "Description": "Address: 0x088C3584. PC address: 0x140225560",
     "Parameters": [
       {
         "Type": "int",
@@ -235,7 +241,7 @@
     "Index": "0x1014",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0014",
-    "Description": "Address: 0x088C35E8",
+    "Description": "Address: 0x088C35E8. PC address: 0x1402255B0",
     "Parameters": [
       {
         "Type": "int",
@@ -248,7 +254,7 @@
     "Index": "0x1015",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0015",
-    "Description": "Address: 0x088C34F8",
+    "Description": "Address: 0x088C34F8. PC address: 0x140225850",
     "Parameters": [
       {
         "Type": "int",
@@ -261,14 +267,14 @@
     "Index": "0x1016",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0016",
-    "Description": "Address: 0x088C3624",
+    "Description": "Address: 0x088C3624. PC address: 0x1402251E0",
     "Parameters": []
   },
   {
     "Index": "0x1017",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0017",
-    "Description": "Address: 0x088C364C",
+    "Description": "Address: 0x088C364C. PC address: 0x1402251A0",
     "Parameters": [
       {
         "Type": "int",
@@ -281,7 +287,7 @@
     "Index": "0x1018",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0018",
-    "Description": "Address: 0x088C368C",
+    "Description": "Address: 0x088C368C. PC address: 0x140222E00",
     "Parameters": [
       {
         "Type": "int",
@@ -294,7 +300,7 @@
     "Index": "0x1019",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0019",
-    "Description": "Address: 0x088C17B0",
+    "Description": "Address: 0x088C17B0. PC address: 0x140224C50",
     "Parameters": [
       {
         "Type": "int",
@@ -307,7 +313,7 @@
     "Index": "0x101a",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_001A",
-    "Description": "Address: 0x088C48AC",
+    "Description": "Address: 0x088C48AC. PC address: 0x1402241F0",
     "Parameters": [
       {
         "Type": "int",
@@ -325,7 +331,7 @@
     "Index": "0x101b",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_001B",
-    "Description": "Address: 0x088C284C",
+    "Description": "Address: 0x088C284C. PC address: 0x14F312680",
     "Parameters": [
       {
         "Type": "int",
@@ -343,7 +349,7 @@
     "Index": "0x101c",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_001C",
-    "Description": "Address: 0x088C2898",
+    "Description": "Address: 0x088C2898. PC address: 0x14F314220",
     "Parameters": [
       {
         "Type": "int",
@@ -361,7 +367,7 @@
     "Index": "0x101d",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_001D",
-    "Description": "Address: 0x088C2F84",
+    "Description": "Address: 0x088C2F84. PC address: 0x14F4A4C80",
     "Parameters": [
       {
         "Type": "int",
@@ -379,7 +385,7 @@
     "Index": "0x101e",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_001E",
-    "Description": "Address: 0x088C2E90",
+    "Description": "Address: 0x088C2E90. PC address: 0x140222F80",
     "Parameters": [
       {
         "Type": "int",
@@ -392,7 +398,7 @@
     "Index": "0x101f",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_001F",
-    "Description": "Address: 0x088C3714",
+    "Description": "Address: 0x088C3714. PC address: 0x1402246A0",
     "Parameters": [
       {
         "Type": "int",
@@ -410,7 +416,7 @@
     "Index": "0x1020",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0020",
-    "Description": "Address: 0x088C371C",
+    "Description": "Address: 0x088C371C. PC address: 0x1402246E0",
     "Parameters": [
       {
         "Type": "int",
@@ -428,7 +434,7 @@
     "Index": "0x1021",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0021",
-    "Description": "Address: 0x088C3724",
+    "Description": "Address: 0x088C3724. PC address: 0x1402246C0",
     "Parameters": [
       {
         "Type": "int",
@@ -446,7 +452,7 @@
     "Index": "0x1022",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0022",
-    "Description": "Address: 0x088C372C",
+    "Description": "Address: 0x088C372C. PC address: 0x140224700",
     "Parameters": [
       {
         "Type": "int",
@@ -457,19 +463,19 @@
   },
   {
     "Index": "0x1023",
-    "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0023",
-    "Description": "Address: 0x088C2044",
+    "ReturnType": "void",
+    "Name": "CALL_FIELD_OBJECT",
+    "Description": "Gets a field object from model/pack/fobj. Address: 0x088C2044. PC address: 0x140223A40",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
-        "Description": ""
+        "Description": "If it's -1, it uses the old folder location from FES. e.g. field/rmd/m004_001.GMO"
       },
       {
         "Type": "int",
-        "Name": "param2",
-        "Description": ""
+        "Name": "objID",
+        "Description": "If it's 294, it uses Elizabeth's enemy model, and if it's 298, it uses Theo's enemy model"
       }
     ]
   },
@@ -477,7 +483,7 @@
     "Index": "0x1024",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0024",
-    "Description": "Address: 0x088C25E8",
+    "Description": "Address: 0x088C25E8. PC address: 0x140223F00",
     "Parameters": [
       {
         "Type": "int",
@@ -495,7 +501,7 @@
     "Index": "0x1025",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0025",
-    "Description": "Address: 0x088C27FC",
+    "Description": "Address: 0x088C27FC. PC address: 0x1402239F0",
     "Parameters": [
       {
         "Type": "int",
@@ -513,7 +519,7 @@
     "Index": "0x1026",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0026",
-    "Description": "Address: 0x088C3764",
+    "Description": "Address: 0x088C3764. PC address: 0x140224790",
     "Parameters": [
       {
         "Type": "int",
@@ -531,14 +537,14 @@
     "Index": "0x1027",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0027",
-    "Description": "Address: 0x088C3088",
+    "Description": "Address: 0x088C3088. PC address: 0x140225410",
     "Parameters": []
   },
   {
     "Index": "0x1028",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0028",
-    "Description": "Address: 0x088C3800",
+    "Description": "Address: 0x088C3800. PC address: 0x14F2760C0",
     "Parameters": [
       {
         "Type": "int",
@@ -551,21 +557,21 @@
     "Index": "0x1029",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0029",
-    "Description": "Address: 0x088C3840",
+    "Description": "Address: 0x088C3840. PC address: 0x140223080",
     "Parameters": []
   },
   {
     "Index": "0x102a",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_002A",
-    "Description": "Address: 0x088C18D4",
+    "Description": "Address: 0x088C18D4. PC address: 0x140223260",
     "Parameters": []
   },
   {
     "Index": "0x102b",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_002B",
-    "Description": "Address: 0x088C1918",
+    "Description": "Address: 0x088C1918. PC address: 0x1402231C0",
     "Parameters": [
       {
         "Type": "int",
@@ -578,7 +584,7 @@
     "Index": "0x102c",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_002C",
-    "Description": "Address: 0x088C376C",
+    "Description": "Address: 0x088C376C. PC address: 0x140224770",
     "Parameters": [
       {
         "Type": "int",
@@ -596,7 +602,7 @@
     "Index": "0x102d",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_002D",
-    "Description": "Address: 0x088C37F8",
+    "Description": "Address: 0x088C37F8. PC address: 0x1402247B0",
     "Parameters": [
       {
         "Type": "int",
@@ -609,7 +615,7 @@
     "Index": "0x102e",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_002E",
-    "Description": "Address: 0x088C379C",
+    "Description": "Have to look into this one more, but it uses the bgm toggle function. Address: 0x088C379C. PC address: 0x140224720",
     "Parameters": [
       {
         "Type": "int",
@@ -622,7 +628,7 @@
     "Index": "0x102f",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_002F",
-    "Description": "Address: 0x088C37E8",
+    "Description": "Address: 0x088C37E8. PC address: 0x140223010",
     "Parameters": [
       {
         "Type": "int",
@@ -635,7 +641,7 @@
     "Index": "0x1030",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0030",
-    "Description": "Address: 0x088C37F0",
+    "Description": "Address: 0x088C37F0. PC address: 0x140222FF0",
     "Parameters": [
       {
         "Type": "int",
@@ -653,7 +659,7 @@
     "Index": "0x1031",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0031",
-    "Description": "Address: 0x088C3868",
+    "Description": "Address: 0x088C3868. PC address: 0x14F2814D0",
     "Parameters": [
       {
         "Type": "int",
@@ -671,7 +677,7 @@
     "Index": "0x1032",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0032",
-    "Description": "Address: 0x088C391C",
+    "Description": "Address: 0x088C391C. PC address: 0x140224930",
     "Parameters": [
       {
         "Type": "int",
@@ -689,14 +695,14 @@
     "Index": "0x1033",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0033",
-    "Description": "Address: 0x088C3944",
+    "Description": "Address: 0x088C3944. PC address: 0x14F2F7950",
     "Parameters": []
   },
   {
     "Index": "0x1034",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0034",
-    "Description": "Address: 0x088C3260",
+    "Description": "Address: 0x088C3260. PC address: 0x140222DD0",
     "Parameters": [
       {
         "Type": "int",
@@ -724,14 +730,14 @@
     "Index": "0x1035",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0035",
-    "Description": "Address: 0x088C30B8",
+    "Description": "Address: 0x088C30B8. PC address: 0x140225210",
     "Parameters": []
   },
   {
     "Index": "0x1036",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0036",
-    "Description": "Address: 0x088C296C",
+    "Description": "Address: 0x088C296C. PC address: 0x140224960",
     "Parameters": [
       {
         "Type": "int",
@@ -749,14 +755,14 @@
     "Index": "0x1037",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0037",
-    "Description": "Address: 0x088C3734",
+    "Description": "Address: 0x088C3734. PC address: 0x140223050",
     "Parameters": []
   },
   {
     "Index": "0x1038",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0038",
-    "Description": "Address: 0x088C3754",
+    "Description": "Address: 0x088C3754. PC address: 0x140223030",
     "Parameters": [
       {
         "Type": "int",
@@ -769,7 +775,7 @@
     "Index": "0x1039",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0039",
-    "Description": "Address: 0x088C12BC",
+    "Description": "Related to scheduler. Address: 0x088C12BC. PC address: 0x140222B80",
     "Parameters": [
       {
         "Type": "int",
@@ -797,7 +803,7 @@
     "Index": "0x103a",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_003A",
-    "Description": "Address: 0x088C396C",
+    "Description": "Address: 0x088C396C. PC address: 0x140223580",
     "Parameters": [
       {
         "Type": "int",
@@ -809,28 +815,31 @@
   {
     "Index": "0x103b",
     "ReturnType": "void",
-    "Name": "FLD_FUNCTION_003B",
-    "Description": "Address: 0x088C39B4",
+    "Name": "CHK_STATUS",
+    "Description": "Address: 0x088C39B4. PC address: 0x140223380",
     "Parameters": [
       {
         "Type": "int",
         "Name": "param1",
         "Description": ""
       }
+    ],
+    "Aliases": [
+      "FLD_FUNCTION_003B"
     ]
   },
   {
     "Index": "0x103c",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_003C",
-    "Description": "Address: 0x088C375C",
+    "Description": "Address: 0x088C375C. PC address: 0x1402232D0",
     "Parameters": []
   },
   {
     "Index": "0x103d",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_003D",
-    "Description": "Address: 0x088C1EDC",
+    "Description": "Address: 0x088C1EDC. PC address: 0x14F344780",
     "Parameters": [
       {
         "Type": "int",
@@ -848,14 +857,14 @@
     "Index": "0x103e",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_003E",
-    "Description": "Address: 0x088C3774",
+    "Description": "Address: 0x088C3774. PC address: 0x1402230B0",
     "Parameters": []
   },
   {
     "Index": "0x103f",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_003F",
-    "Description": "Address: 0x088C32E4",
+    "Description": "Address: 0x088C32E4. PC address: 0x14F3D0D80",
     "Parameters": [
       {
         "Type": "int",
@@ -873,28 +882,28 @@
     "Index": "0x1040",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0040",
-    "Description": "Address: 0x088C2FC4",
+    "Description": "Address: 0x088C2FC4. PC address: 0x14F4934D0",
     "Parameters": []
   },
   {
     "Index": "0x1041",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0041",
-    "Description": "Address: 0x088C3C98",
+    "Description": "Address: 0x088C3C98. PC address: 0x1402247D0",
     "Parameters": []
   },
   {
     "Index": "0x1042",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0042",
-    "Description": "Address: 0x088C3CD8",
+    "Description": "Address: 0x088C3CD8. PC address: 0x140224AE0",
     "Parameters": []
   },
   {
     "Index": "0x1043",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0043",
-    "Description": "Address: 0x088C276C",
+    "Description": "Address: 0x088C276C. PC address: 0x1402240A0",
     "Parameters": [
       {
         "Type": "int",
@@ -907,14 +916,14 @@
     "Index": "0x1044",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0044",
-    "Description": "Address: 0x088C3DE4",
+    "Description": "Address: 0x088C3DE4. PC address: 0x14F4148F0",
     "Parameters": []
   },
   {
     "Index": "0x1045",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0045",
-    "Description": "Address: 0x088C1FCC",
+    "Description": "Address: 0x088C1FCC. PC address: 0x14F351190",
     "Parameters": [
       {
         "Type": "int",
@@ -931,15 +940,18 @@
   {
     "Index": "0x1046",
     "ReturnType": "int",
-    "Name": "FLD_FUNCTION_0046",
-    "Description": "Address: 0x088C3DC4",
+    "Name": "IS_THE_ANSWER",
+    "Description": "FES leftover. No longer does anything, but some flowscripts still have this left in. Address: 0x088C3DC4. PC address: 0x14F37B7A0",
     "Parameters": []
+	"Aliases": [
+      "FLD_FUNCTION_0046"
+    ]
   },
   {
     "Index": "0x1047",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0047",
-    "Description": "Address: 0x088C433C",
+    "Description": "Address: 0x088C433C. PC address: 0x14F10B620",
     "Parameters": [
       {
         "Type": "int",
@@ -952,7 +964,7 @@
     "Index": "0x1048",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0048",
-    "Description": "Address: 0x088C4398",
+    "Description": "Address: 0x088C4398. PC address: 0x14F12E220",
     "Parameters": [
       {
         "Type": "int",
@@ -970,7 +982,7 @@
     "Index": "0x1049",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0049",
-    "Description": "Address: 0x088C440C",
+    "Description": "Address: 0x088C440C. PC address: 0x14F158840",
     "Parameters": [
       {
         "Type": "int",
@@ -988,7 +1000,7 @@
     "Index": "0x104a",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_004A",
-    "Description": "Address: 0x088C4480",
+    "Description": "Address: 0x088C4480. PC address: 0x14F0FB1B0",
     "Parameters": [
       {
         "Type": "int",
@@ -1001,49 +1013,49 @@
     "Index": "0x104b",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_004B",
-    "Description": "Address: 0x088C45D8",
+    "Description": "Address: 0x088C45D8. PC address: 0x1402226C0",
     "Parameters": []
   },
   {
     "Index": "0x104c",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_004C",
-    "Description": "Address: 0x088C4774",
+    "Description": "Address: 0x088C4774. PC address: 0x14F0FABE0",
     "Parameters": []
   },
   {
     "Index": "0x104d",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_004D",
-    "Description": "Address: 0x088C479C",
+    "Description": "Address: 0x088C479C. PC address: 0x14F161730",
     "Parameters": []
   },
   {
     "Index": "0x104e",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_004E",
-    "Description": "Address: 0x088C47C0",
+    "Description": "Address: 0x088C47C0. PC address: 0x14F0CEDB0",
     "Parameters": []
   },
   {
     "Index": "0x104f",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_004F",
-    "Description": "Address: 0x088C47E8",
+    "Description": "Address: 0x088C47E8. PC address: 0x140222550",
     "Parameters": []
   },
   {
     "Index": "0x1050",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0050",
-    "Description": "Address: 0x088C46F8",
+    "Description": "Address: 0x088C46F8. PC address: 0x140222720",
     "Parameters": []
   },
   {
     "Index": "0x1051",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0051",
-    "Description": "Address: 0x088C480C",
+    "Description": "Address: 0x088C480C. PC address: 0x14F1BE7F0",
     "Parameters": [
       {
         "Type": "int",
@@ -1071,7 +1083,7 @@
     "Index": "0x1052",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0052",
-    "Description": "Address: 0x088C3E04",
+    "Description": "Address: 0x088C3E04. PC address: 0x14F4DA060",
     "Parameters": [
       {
         "Type": "int",
@@ -1084,7 +1096,7 @@
     "Index": "0x1053",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0053",
-    "Description": "Address: 0x0896B83C",
+    "Description": "Address: 0x0896B83C. PC address: 0x150B003A0",
     "Parameters": [
       {
         "Type": "int",
@@ -1102,7 +1114,7 @@
     "Index": "0x1054",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0054",
-    "Description": "Address: 0x0896B8C4",
+    "Description": "Address: 0x0896B8C4. PC address: 0x150AE5F30",
     "Parameters": [
       {
         "Type": "int",
@@ -1120,7 +1132,7 @@
     "Index": "0x1055",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0055",
-    "Description": "Address: 0x0896B944",
+    "Description": "Address: 0x0896B944. PC address: 0x150B344D0",
     "Parameters": [
       {
         "Type": "int",
@@ -1133,7 +1145,7 @@
     "Index": "0x1056",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0056",
-    "Description": "Address: 0x0896B754",
+    "Description": "Address: 0x0896B754. PC address: 0x150AD4E80",
     "Parameters": [
       {
         "Type": "int",
@@ -1146,7 +1158,7 @@
     "Index": "0x1057",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0057",
-    "Description": "Address: 0x0896B624",
+    "Description": "Address: 0x0896B624. PC address: 0x150A89610",
     "Parameters": [
       {
         "Type": "int",
@@ -1159,7 +1171,7 @@
     "Index": "0x1058",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0058",
-    "Description": "Address: 0x0896B67C",
+    "Description": "Address: 0x0896B67C. PC address: 0x150A89C10",
     "Parameters": [
       {
         "Type": "int",
@@ -1197,28 +1209,28 @@
     "Index": "0x1059",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0059",
-    "Description": "Address: 0x0896B718",
+    "Description": "Address: 0x0896B718. PC address: 0x150A75B20",
     "Parameters": []
   },
   {
     "Index": "0x105a",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_005A",
-    "Description": "Address: 0x0896B72C",
+    "Description": "Address: 0x0896B72C. PC address: 0x150A7A620",
     "Parameters": []
   },
   {
     "Index": "0x105b",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_005B",
-    "Description": "Address: 0x088C3178",
+    "Description": "Address: 0x088C3178. PC address: 0x14F4C6D00",
     "Parameters": []
   },
   {
     "Index": "0x105c",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_005C",
-    "Description": "Address: 0x088C31A8",
+    "Description": "Address: 0x088C31A8. PC address: 0x140225D30",
     "Parameters": [
       {
         "Type": "int",
@@ -1231,7 +1243,7 @@
     "Index": "0x105d",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_005D",
-    "Description": "Address: 0x0896B788",
+    "Description": "Address: 0x0896B788. PC address: 0x150AB3530",
     "Parameters": [
       {
         "Type": "int",
@@ -1254,7 +1266,7 @@
     "Index": "0x105e",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_005E",
-    "Description": "Address: 0x0896B978",
+    "Description": "Address: 0x0896B978. PC address: 0x150AD53A0",
     "Parameters": [
       {
         "Type": "int",
@@ -1267,7 +1279,7 @@
     "Index": "0x105f",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_005F",
-    "Description": "Address: 0x088C4628",
+    "Description": "Address: 0x088C4628. PC address: 0x14F1EE3D0",
     "Parameters": [
       {
         "Type": "int",
@@ -1280,7 +1292,7 @@
     "Index": "0x1060",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0060",
-    "Description": "Address: 0x088C3E34",
+    "Description": "Address: 0x088C3E34. PC address: 0x14F4A6210",
     "Parameters": [
       {
         "Type": "int",
@@ -1298,7 +1310,7 @@
     "Index": "0x1061",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0061",
-    "Description": "Address: 0x088C3EA8",
+    "Description": "Address: 0x088C3EA8. PC address: 0x140224FF0",
     "Parameters": [
       {
         "Type": "int",
@@ -1311,7 +1323,7 @@
     "Index": "0x1062",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0062",
-    "Description": "Address: 0x088C3F3C",
+    "Description": "Address: 0x088C3F3C. PC address: 0x140224F10",
     "Parameters": [
       {
         "Type": "int",
@@ -1324,7 +1336,7 @@
     "Index": "0x1063",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0063",
-    "Description": "Address: 0x088C404C",
+    "Description": "Address: 0x088C404C. PC address: 0x140225080",
     "Parameters": [
       {
         "Type": "int",
@@ -1337,7 +1349,7 @@
     "Index": "0x1064",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0064",
-    "Description": "Address: 0x088C40E8",
+    "Description": "Address: 0x088C40E8. PC address: 0x140224D50",
     "Parameters": [
       {
         "Type": "int",
@@ -1350,7 +1362,7 @@
     "Index": "0x1065",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0065",
-    "Description": "Address: 0x088C4180",
+    "Description": "Address: 0x088C4180. PC address: 0x140224DF0",
     "Parameters": [
       {
         "Type": "int",
@@ -1363,7 +1375,7 @@
     "Index": "0x1066",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_0066",
-    "Description": "Address: 0x088C4218",
+    "Description": "Address: 0x088C4218. PC address: 0x140224E80",
     "Parameters": [
       {
         "Type": "int",
@@ -1376,7 +1388,7 @@
     "Index": "0x1067",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0067",
-    "Description": "Address: 0x088C42B0",
+    "Description": "Address: 0x088C42B0. PC address: 0x140225470",
     "Parameters": [
       {
         "Type": "int",
@@ -1389,21 +1401,21 @@
     "Index": "0x1068",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0068",
-    "Description": "Address: 0x088C2A74",
+    "Description": "Address: 0x088C2A74. PC address: 0x140225970",
     "Parameters": []
   },
   {
     "Index": "0x1069",
     "ReturnType": "void",
     "Name": "FLD_FUNCTION_0069",
-    "Description": "Address: 0x088C2B30",
+    "Description": "Address: 0x088C2B30. PC address: 0x140225A10",
     "Parameters": []
   },
   {
     "Index": "0x106a",
     "ReturnType": "void",
     "Name": "CALL_CALENDAR",
-    "Description": "Address: 0x089365C4",
+    "Description": "Address: 0x089365C4. PC address: 0x14AFB4F70",
     "Parameters": [],
     "Aliases": [
       "FLD_FUNCTION_006A"
@@ -1413,14 +1425,14 @@
     "Index": "0x106b",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_006B",
-    "Description": "Address: 0x088C31D0",
+    "Description": "Address: 0x088C31D0. PC address: 0x140225C50",
     "Parameters": []
   },
   {
     "Index": "0x106c",
     "ReturnType": "int",
     "Name": "FLD_FUNCTION_006C",
-    "Description": "Address: 0x088C16A0",
+    "Description": "Address: 0x088C16A0. PC address: 0x14F4BFAF0",
     "Parameters": [
       {
         "Type": "int",
@@ -1433,7 +1445,7 @@
     "Index": "0x106d",
     "ReturnType": "void",
     "Name": "HD_FLD_FUNCTION_006D",
-    "Description": "",
+    "Description": "Remaster only. PC address: 0x140225D80",
     "Parameters": [],
     "Aliases": [
       "FLD_FUNCTION_006D"
@@ -1443,7 +1455,7 @@
     "Index": "0x106e",
     "ReturnType": "void",
     "Name": "HD_FLD_FUNCTION_006E",
-    "Description": "",
+    "Description": "Remaster only. PC address: 0x140225D60",
     "Parameters": [],
     "Aliases": [
       "FLD_FUNCTION_006E"
@@ -1453,7 +1465,7 @@
     "Index": "0x106f",
     "ReturnType": "int",
     "Name": "HD_FLD_FUNCTION_006F",
-    "Description": "",
+    "Description": "Remaster only. PC address: 0x140225D10",
     "Parameters": [],
     "Aliases": [
       "FLD_FUNCTION_006F"
