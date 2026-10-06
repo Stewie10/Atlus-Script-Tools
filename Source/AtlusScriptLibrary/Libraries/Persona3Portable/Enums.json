@@ -1081,23 +1081,26 @@
 	 },
 	 {
 	  "Name": "StatusEffects",
-	  "Description": "2048 seems to be used at Hanged Man, but the ID does nothing in-game",
+	  "Description": "2048 seems to be used at Hanged Man, but the ID does nothing in-game. Unknown2 crashes when its the player's turn",
 	  "Members": [
 	    {"Name":"None","Value":0},
 		{"Name":"Dizzy","Value":1},
 		{"Name":"Charm","Value":2},
 		{"Name":"Distress","Value":4},
 		{"Name":"Panic","Value":8},
+		{"Name":"Unknown1","Value":13},
 		{"Name":"Fear","Value":16},
 		{"Name":"Rage","Value":32},
 		{"Name":"Freeze","Value":64},
 		{"Name":"Shock","Value":128},
+		{"Name":"Unknown2","Value":255},
 		{"Name":"Poison","Value":256},
 		{"Name":"OrgiaMode","Value":512},
 		{"Name":"Overheat","Value":1024},
 		{"Name":"Dummy","Value":2048},
 		{"Name":"Dead","Value":524288},
-		{"Name":"Downed","Value":1048576}
+		{"Name":"Downed","Value":1048576},
+		{"Name":"Unknown3","Value":16777215}
 		]
 	 },
 	 {
