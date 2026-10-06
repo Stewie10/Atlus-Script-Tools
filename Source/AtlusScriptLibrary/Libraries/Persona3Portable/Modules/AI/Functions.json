@@ -280,7 +280,7 @@
     "ReturnType": "int",
     "Name": "AI_ALLY_ESCAPE",
     "Description": "Address: 0x089FC954. PC address: 0x14004C230",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0012"
     ]
@@ -631,7 +631,7 @@
     "ReturnType": "void",
     "Name": "AI_TAR_LOWHP",
     "Description": "Address: 0x089FF11C. PC address: 0x140053FC0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_002D"
     ]
@@ -641,7 +641,7 @@
     "ReturnType": "void",
     "Name": "AI_TAR_LOWLEVEL",
     "Description": "Address: 0x089FF148. PC address: 0x140054180",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_002E"
     ]
@@ -651,7 +651,7 @@
     "ReturnType": "void",
     "Name": "AI_TAR_MAXSP",
     "Description": "Has a null function, so doesn't do anything. Address: 0x089FF174. PC address: 0x140054200",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_002F"
     ]
@@ -722,7 +722,7 @@
     "ReturnType": "void",
     "Name": "AI_TAR_ALLY",
     "Description": "Address: 0x089FF2FC. PC address: 0x140054340",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0034"
     ]
@@ -874,7 +874,7 @@
     "ReturnType": "void",
     "Name": "AI_ASK_TO_LEAVE",
     "Description": "Address: 0x089FC27C. PC address: 0x140049550",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_003F"
     ]
@@ -917,7 +917,7 @@
     "ReturnType": "void",
     "Name": "AI_APPOINT",
     "Description": "Address: 0x089FF548. PC address: 0x140053C90",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0043"
     ]
@@ -927,7 +927,7 @@
     "ReturnType": "void",
     "Name": "AI_ENEMY_DOWN",
     "Description": "Address: 0x089FF574. PC address: 0x140053D50",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0044"
     ]
@@ -937,7 +937,7 @@
     "ReturnType": "int",
     "Name": "AI_CHK_ENEMY_STAND",
     "Description": "Address: 0x089FF5A0. PC address: 0x140054C20",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0045"
     ]
@@ -2041,7 +2041,7 @@
     "ReturnType": "int",
     "Name": "AI_WEAPON_AFFINITY",
     "Description": "Address: 0x08A0219C. PC address: 0x1445ECD50",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0090"
     ]
@@ -2067,7 +2067,7 @@
     "ReturnType": "int",
     "Name": "AI_ANALYZE",
     "Description": "Address: 0x089FE974. PC address: 0x14004A2F0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0092"
     ]
@@ -2077,7 +2077,7 @@
     "ReturnType": "int",
     "Name": "AI_CHK_ENEMY_DOWN",
     "Description": "Address: 0x089FE9A8. PC address: 0x14004A3D0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0093"
     ]
@@ -2087,7 +2087,7 @@
     "ReturnType": "int",
     "Name": "AI_CHK_ENEMY_SLIP",
     "Description": "Address: 0x089FE9DC. PC address: 0x14004F020",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0094"
     ]
@@ -2222,7 +2222,7 @@
     "ReturnType": "void",
     "Name": "AI_SKILL_SEPARATE",
     "Description": "Address: 0x08A036E8. PC address: 0x140049710",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_009E"
     ]
@@ -2232,7 +2232,7 @@
     "ReturnType": "void",
     "Name": "AI_SKILL_UNITE",
     "Description": "Address: 0x08A03718. PC address: 0x1400494A0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_009F"
     ]
@@ -2525,7 +2525,7 @@
     "ReturnType": "int",
     "Name": "AI_BOSS_CHARGE_FINISH",
     "Description": "Address: 0x08A037F0. PC address: 0x14004A380",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00AF"
     ]
@@ -2579,7 +2579,7 @@
     "ReturnType": "void",
     "Name": "AI_SKILL_MOONLESS_GOWN",
     "Description": "Address: 0x08A035AC. PC address: 0x140049510",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00B3"
     ]
@@ -2589,7 +2589,7 @@
     "ReturnType": "void",
     "Name": "AI_SKILL_MOONLESS_GOWN_DEATH_TURN",
     "Description": "Address: 0x08A035DC. PC address: 0x1400494D0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00B4"
     ]
@@ -3013,7 +3013,7 @@
     "ReturnType": "void",
     "Name": "AI_END_BTL_EVT_CAMERA1",
     "Description": "Address: 0x08A045D4. PC address: 0x144700910",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00CF"
     ]
@@ -3023,7 +3023,7 @@
     "ReturnType": "void",
     "Name": "AI_START_BTL_EVT_CAMERA1",
     "Description": "Address: 0x08A04584. PC address: 0x1446EB500",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00D0"
     ]
@@ -3033,7 +3033,7 @@
     "ReturnType": "void",
     "Name": "AI_END_BTL_EVT_CAMERA2",
     "Description": "Address: 0x08A04520. PC address: 0x1446E7680",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00D1"
     ]
@@ -3043,7 +3043,7 @@
     "ReturnType": "void",
     "Name": "AI_START_BTL_EVT_CAMERA2",
     "Description": "Address: 0x08A044BC. PC address: 0x1446924A0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00D2"
     ]
@@ -3131,7 +3131,7 @@
     "ReturnType": "void",
     "Name": "AI_SKILL_NYX_YELL_GREAT_SEAL",
     "Description": "For skills Yell and Great Seal. Address: 0x08A03664. PC address: 0x140049F30",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00D8"
     ]
@@ -3380,7 +3380,7 @@
     "ReturnType": "void",
     "Name": "AI_PERSONA_CHANGE",
     "Description": "FES leftover. This is supposed to be the Persona change function for the Shadow Makoto fight. It had more code in FES, but all it does now is play the Persona change animation. Address: 0x08A03868. PC address: 0x140049670",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_00E9"
     ]
@@ -3743,7 +3743,7 @@
     "ReturnType": "void",
     "Name": "AI_FORCE_SINGLE_MEMBER",
     "Description": "For Magician encounter. Crashes if anyone other than the protagonist is in the party. Address: 0x08A03FE4. PC address: 0x14468F350",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "AI_FUNCTION_0107"
     ]

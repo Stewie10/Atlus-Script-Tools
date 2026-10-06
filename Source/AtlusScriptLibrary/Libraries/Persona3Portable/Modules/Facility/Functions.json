@@ -160,7 +160,7 @@
     "ReturnType": "void",
     "Name": "SAVE_MENU2",
     "Description": "Unused duplicate save menu function. Address: 0x08973810. PC address: 0x1402C2650",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_000A"
     ]
@@ -180,7 +180,7 @@
     "ReturnType": "void",
     "Name": "SOFT_RESET",
     "Description": "Address: 0x08A63E84. PC address: 0x140273430",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_000C"
     ]
@@ -266,7 +266,7 @@
     "ReturnType": "void",
     "Name": "CALL_ELEVATOR_GIRL",
     "Description": "Address: 0x0887274C. PC address: 0x1401B8420",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_0014"
     ]
@@ -317,7 +317,7 @@
     "ReturnType": "void",
     "Name": "CALL_DARK_HOUR2",
     "Description": "Another Dark Hour call that gets used. Address: 0x08973DB8. PC address: 0x1402C23E0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_0017"
     ]
@@ -327,7 +327,7 @@
     "ReturnType": "void",
     "Name": "END_DARK_HOUR",
     "Description": "Address: 0x08973DD8. PC address: 0x153D76F00",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_0018"
     ]
@@ -337,7 +337,7 @@
     "ReturnType": "void",
     "Name": "LOAD_SETUP",
     "Description": "Address: 0x08973E54. PC address: 0x1402C2C00",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_0019"
     ]
@@ -398,7 +398,7 @@
     "ReturnType": "void",
     "Name": "SET_SILVER_DOOR_BOSS",
     "Description": "Address: 0x089BA79C. PC address: 0x140080F80",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FCL_FUNCTION_001E"
     ]

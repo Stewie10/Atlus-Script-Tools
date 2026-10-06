@@ -28,7 +28,7 @@
     "ShortName": "Event",
     "Description": "Event related functions.",
     "ConstantsPath": "",
-    "EnumsPath": "",
+    "EnumsPath": "Persona3Portable/Enums.json",
     "FunctionsPath": "Persona3Portable/Modules/Event/Functions.json"
   },
   {

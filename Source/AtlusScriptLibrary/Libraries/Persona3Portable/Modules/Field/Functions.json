@@ -69,7 +69,7 @@
     "ReturnType": "int",
     "Name": "GET_FLOOR_ID",
     "Description": "Address: 0x088C1678. PC address: 0x14F2E6CF0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FLD_FUNCTION_0004"
     ]
@@ -942,7 +942,7 @@
     "ReturnType": "int",
     "Name": "IS_THE_ANSWER",
     "Description": "FES leftover. No longer does anything, but some flowscripts still have this left in. Address: 0x088C3DC4. PC address: 0x14F37B7A0",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "FLD_FUNCTION_0046"
     ]

@@ -35,7 +35,7 @@
     "ReturnType": "void",
     "Name": "END_EVENT",
     "Description": "Address: 0x089B317C. PC address: 0x14A185580",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "EVT_FUNCTION_0001"
     ]
@@ -43,9 +43,12 @@
   {
     "Index": "0x3002",
     "ReturnType": "void",
-    "Name": "EVT_FUNCTION_0002",
-    "Description": "Address: 0x08991C54. PC address: 0x14C2CF630",
-    "Parameters": []
+    "Name": "START_EVENT",
+    "Description": "Events still technically loads without this, but without this voice clips and bustup paks won't load. Address: 0x08991C54. PC address: 0x14C2CF630",
+    "Parameters": [],
+	"Aliases": [
+      "EVT_FUNCTION_0002"
+    ]
   },
   {
     "Index": "0x3003",
@@ -1150,7 +1153,7 @@
     "ReturnType": "void",
     "Name": "PLAY_GAMEOVER_MSG",
     "Description": "Text scroll for the game over sceen. Only plays the first msg in the bmd file. Address: 0x08992CC4. PC address: 0x14C3DEF50",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "EVT_FUNCTION_0051"
     ]
@@ -1160,7 +1163,7 @@
     "ReturnType": "void",
     "Name": "GAMEOVER_MSG_WAIT",
     "Description": "Makes the flowscript wait until the text scroll finishes. Address: 0x08992E5C. PC address: 0x14017F060",
-    "Parameters": []
+    "Parameters": [],
 	"Aliases": [
       "EVT_FUNCTION_0052"
     ]
