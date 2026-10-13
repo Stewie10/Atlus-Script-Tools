@@ -1273,7 +1273,7 @@
   {
     "Index": "0x205e",
     "ReturnType": "int",
-    "Name": "AI_CHK_UNIT_SELF_STATUS",
+    "Name": "AI_CHK_UNIT_EFFECT",
     "Description": "Address: 0x089FD588. PC address: 0x14004CE20",
     "Parameters": [
       {
@@ -1282,12 +1282,13 @@
         "Description": ""
       },
       {
-        "Type": "StatusEffects",
-        "Name": "statusID",
+        "Type": "SpecialEffects",
+        "Name": "effectID",
         "Description": ""
       }
     ],
     "Aliases": [
+	  "AI_CHK_UNIT_SELF_STATUS",
       "AI_FUNCTION_005E"
     ]
   },
